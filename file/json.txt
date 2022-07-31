@@ -25,6 +25,51 @@ let book = {
         "details": "<span class = 'referenceClass'>Mustadrak al-hakim Volume 3, page 494, hadees 5983</span> <br/> " +
             "<span class = 'descriptionClass'> Qayamat tk deen qaim rahega aur logoo k mamlaat theek rahey gey aur 12 khalifa hongey quraish se</span>"
     },
+    {
+        "topic":"Khalifa - 12 aur Qurashi hongey", 
+        "details": "<span class = 'referenceClass'>Jamia al-tirmizi Volume 2, page 110, hadees 2223</span> <br/> " +
+            "<span class = 'descriptionClass'>  12 khalifa hongey aur sb QURAISH mai se hongey</span>"
+    },
+    {
+        "topic":"Khilafat - 30 saal khilafat phir mulkiyat", 
+        "details": "<span class = 'referenceClass'>Tareekh ibne kaseer Volume 2, page 225, hadees 2223</span> <br/> " +
+            "<span class = 'descriptionClass'>  Khulfa ki khilafat ka asar.30 saal ki khilafat aur phir mulki'at </span>"
+    },
+    {
+        "topic":"Khilafat - 30 saal khilafat phir mulkiyat", 
+        "details": "<span class = 'referenceClass'>Tareekh-ul-khulafa page 25 </span> <br/> " +
+            "<span class = 'descriptionClass'>  Khulfa ki khilafat ka asar.30 saal ki khilafat aur phir mulki'at </span>"
+    },
+     {
+        "topic":"Khilafat - 30 saal khilafat phir mulkiyat", 
+        "details": "<span class = 'referenceClass'>Jamia al-tirmizi Volume 2, page 111, hadees 2226</span> <br/> " +
+            "<span class = 'descriptionClass'>  mere baad 30 saal khilafat aur phir badshahat aur phir NARATTOR ne gin kr chaar khalifa k naam lye (imam hassan ko ignore kardia q??) </span>"
+    },
+    {
+        "topic":"Khilafat - hasil karney ka sawal na karo", 
+        "details": "<span class = 'referenceClass'>Sahih muslim Volume 5, page 119, hadees 4715, 4716, 4717, 4718 </span> <br/> " +
+            "<span class = 'descriptionClass'> Khilafat hasil karney ka sawal na karo, js ney sawal kar k hasil ki tu ALLAH usey choor dega aur jisey bina mangey mili tu ALLAH madad karega, </span>"
+    },
+           
+    {
+        "topic":"Khalifa - Nabi kisey Khalifa banatey", 
+        "details": "<span class = 'referenceClass'>Musnad ahmad ibn hambal Volume 11, page 651, hadees 26942 </span> <br/> " +
+            "<span class = 'descriptionClass'> agar ZAID BIN HARSA zindah hotey tu nabi(s.a.w.a.w) unhey khalifa banatey </span>"
+    },
+    {
+        "topic":"Khalifa - Nabi kisey Khalifa banatey", 
+        "details": "<span class = 'referenceClass'>Sahih Muslim Volume 6, page 77, hadees 6178 </span> <br/> " +
+            "<span class = 'descriptionClass'> amma ayesha se pocha agar Nabi (s.a.w.a..w) khalifa chuntey tu pehla Abu bakar, phir umar phir obaidah bin jarrah </span>"
+    },
+    {
+        "topic":"Paper Pen - Nabi ne farmaya main likh doon", 
+        "details": "<span class = 'referenceClass'>Mishkat al-masabih Volume 3, page 507, hadees 6021 <br/>" + 
+            "Musnad ahmad ibn hambal volume 11, page 306, hadees 25626 </span> <br/> " +
+            "<span class = 'descriptionClass'> amma ayesha se kaha k apney baap aur bhai ko bulao aur mai likh doon tehreer k muje andesha hai koi tamanna karney wala khilafat ki tamanna na karey. Allah aur momin sirf abu bakar ko hi qabool karegey </span>"
+    },
+
+
+
 
 
 

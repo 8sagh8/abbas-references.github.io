@@ -3,7 +3,7 @@
 /* Vertical Nav Bar */
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 100px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -16,7 +16,7 @@
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 14px;
     color: #818181;
     display: block;
   }
@@ -51,7 +51,7 @@
 
 /* Main Div in Body */
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 100px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
@@ -90,7 +90,7 @@ footer{
     left: 0;
    bottom: 0;
    width: 100%;
-   background-color: blue;
+   background-color: #333;
    color: white;
    text-align: center;
 }
