@@ -1,0 +1,11 @@
+let book = {
+"reference":[
+    {
+        "topic":"Khalifa - sirf Quraishi hoga", 
+        "details": "Sahih Muslim Volume 5, page 113, hadees 4701, 4702, 4703, 4704 \n Har musalmaan QURAISH k taabey hai"
+    },
+    {
+        "topic":"Khalifa - sirf Quraishi hoga", 
+        "details": "Mustadrak al-hakim Volume 3, page 494, hadees 5979 \n Har musalmaan QURAISH k taabey hai"},
+]
+}
