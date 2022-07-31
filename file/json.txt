@@ -2,10 +2,31 @@ let book = {
 "reference":[
     {
         "topic":"Khalifa - sirf Quraishi hoga", 
-        "details": "Sahih Muslim Volume 5, page 113, hadees 4701, 4702, 4703, 4704 \n Har musalmaan QURAISH k taabey hai"
+        "details": "<span class = 'referenceClass'>Sahih Muslim Volume 5, page 113, hadees 4701, 4702, 4703, 4704</span> <br/> " +
+            "<span class = 'descriptionClass'> Har musalmaan QURAISH k taabey hai </span>"
     },
     {
         "topic":"Khalifa - sirf Quraishi hoga", 
-        "details": "Mustadrak al-hakim Volume 3, page 494, hadees 5979 \n Har musalmaan QURAISH k taabey hai"},
+        "details": "<span class = 'referenceClass'>Mustadrak al-hakim Volume 3, page 494, hadees 5979, 5980, 5981</span> <br/> " +
+            "<span class = 'descriptionClass'> Har musalmaan QURAISH k taabey hai </span>"
+    },
+    {
+        "topic":"Khalifa - 12 aur Qurashi hongey", 
+        "details": "<span class = 'referenceClass'>Sahih Muslim Volume 5, page 114, hadees 4705, 4706, 4707, 4708, 4709, 4710, 4711, 4712</span> <br/> " +
+            "<span class = 'descriptionClass'> 12 khalifa hongey aur sb QURAISH mai se hongey, Aur Islam Galib Rahega </span>"
+    },
+    {
+        "topic":"Khalifa - 12 aur Qurashi hongey", 
+        "details": "<span class = 'referenceClass'>Mustadrak al-hakim Volume 55716, page 563, hadees 6586, 6589</span> <br/> " +
+            "<span class = 'descriptionClass'> 12 khalifa hongey aur sb QURAISH mai se hongey, Aur Islam Galib Rahega</span>"
+    },
+    {
+        "topic":"Khalifa - 12 aur Qurashi hongey", 
+        "details": "<span class = 'referenceClass'>Mustadrak al-hakim Volume 3, page 494, hadees 5983</span> <br/> " +
+            "<span class = 'descriptionClass'> Qayamat tk deen qaim rahega aur logoo k mamlaat theek rahey gey aur 12 khalifa hongey quraish se</span>"
+    },
+
+
+
 ]
 }

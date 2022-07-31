@@ -56,9 +56,33 @@
     padding: 0px 10px;
   }
 
+  /* Heading H1 */
+#headingID{
+    text-align: center;
+}
 
-  
- 
+  /* Main Reference Container */
+  .contClass{
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  /* reference Heading */
+  .topicClass{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px;
+  }
+    /* Reference Text Reference*/
+.referenceClass{
+    font-size: 14px;
+    color: green;
+}
+
+/* Description of Reference */
+.descriptionClass{
+    font-size: 18px;
+    color: blue;
+}
 
 /* Footer */
 footer{
