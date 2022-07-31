@@ -67,11 +67,36 @@ let book = {
             "Musnad ahmad ibn hambal volume 11, page 306, hadees 25626 </span> <br/> " +
             "<span class = 'descriptionClass'> amma ayesha se kaha k apney baap aur bhai ko bulao aur mai likh doon tehreer k muje andesha hai koi tamanna karney wala khilafat ki tamanna na karey. Allah aur momin sirf abu bakar ko hi qabool karegey </span>"
     },
-
-
-
-
-
+    {
+        "topic":"Paper Pen - Nabi ne farmaya main likh doon", 
+        "details": "<span class = 'referenceClass'>Musnad ahmad ibn hambal Volume 11, page 208, hadees 25258 <br/>" + 
+            "<span class = 'descriptionClass'> ayesha se kaha k apney baap aur bhai ko bulao aur mai likh doon tehreer k muje andesha hai koi tamanna karney wala khilafat ki tamanna na karey. Allah aur momin sirf abu bakar ko hi qabool karegey </span>"
+    },
+    {
+        "topic":"Paper Pen - Nabi ne farmaya main likh doon", 
+        "details": "<span class = 'referenceClass'>Sahih muslim Volume 6, page 78, hadees 6181 <br/>" + 
+            "<span class = 'descriptionClass'>  ayesha se kaha k apney baap aur bhai ko bulao aur mai likh doon tehreer k muje andesha hai koi tamanna karney wala khilafat ki tamanna na karey. Allah aur momin sirf abu bakar ko hi qabool karegey </span>"
+    },
+    {
+        "topic":"Khalifa - Nabi kisey Khalifa banatey", 
+        "details": "<span class = 'referenceClass'>Mustadrak al-hakim Volume 55716, page 190, hadees 6016 <br/>" + 
+            "<span class = 'descriptionClass'> abdul rehman bin abu bakar ney kaha k rasool ney kaha k abu bakar k siwa ALLAH aur momineen kisi ko nhi chunege </span>"
+    },
+    {
+        "topic":"Khalifa - Nabi (s.a) ne chuna", 
+        "details": "<span class = 'referenceClass'>Musnad ahmad ibn hambal Volume 1, page 390, hadees 802 <br/>" + 
+            "<span class = 'descriptionClass'> hazrat mohammad (s.a.w.a.w) ney bata dia tha hazrat ali ko k hazrat ali khalifa zaroor banegey aur shaheed hongey </span>"
+    },
+    {
+        "topic":"Khalifa - Nabi kisey Khalifa banatey", 
+        "details": "<span class = 'referenceClass'> Musnad ahmad ibn hambal Volume 11, page 99, hadees 24850 <br/>" + 
+            "<span class = 'descriptionClass'>  ayesha said, nabi ney kisi ko b khalifa nhi chuna aur chuntey tu abu bakar aur umar ko </span>"
+    },
+    {
+        "topic":"Ks ki Pervi / Itaba karain? Jo janta hai yaa jo rah nhi janta", 
+        "details": "<span class = 'referenceClass'> Quran : Surah Yunus Chapter 10 Ayat 35 <br/>" + 
+            "<span class = 'descriptionClass'>  Jo sahih rah batata hai zyada haqdar hai k uski pervi ki jaye YAA jo khud rah nhi pata - <b>Tm kese faisle karte ho?</b> </span>"
+    },
 
 ]
 }
