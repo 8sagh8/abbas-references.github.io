@@ -1,6 +1,84 @@
 
 let book = {
 "reference":[
+    {   
+        "topic":"Madad Karo", 
+        "details": "<span class = 'referenceClass'> Quran chapter 05, verse 2 </span> <br/> " +
+            "<span class = 'descriptionClass'> At the end of ayat: tm madad karo ek dosre ki Naiki aur Parhaizgari main aur na karo madad Gunah aur Ziyadti/ Sarkashi main</span>"
+    },
+    {   
+        "topic":"Rijaat | Rajat", 
+        "details": "<span class = 'referenceClass'> Quran - Tafseer Saafi  </span> <br/> " +
+            "<span class = 'descriptionClass'> <b>volume 5, chapter 27, verse 83, page 516</b> js din hum har qoam se ek groh ko uthayege. <br />" +
+                        "<b>chapter 2, verse 55 - 56</b> jb mosa k manney waloon ne kaha k hum ALLAH ko dekhna chahtey hain tu moat(bijli se mar gaye thy) k baad phir ALLAH ne sb ko zindah kia. ye Hazrat Ali ne farmaya <br/>" + 
+                        "<b>chapter 2, verse 243</b> 1000 (hazaroo) logoo ko maar kr Allah ne zindah kia <br/>" + 
+                        "<b>chapter 2, verse 259</b> ek shaks ko 100 saal k lye murda kar dia aur phir zindah kia </span>"
+    },
+    {   
+        "topic":"Musalmaan kon? Muslim?", 
+        "details": "<span class = 'referenceClass'> Quran chapter 33, verse 36 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah aur Rasool (sawaw) k faisley k baad kisi momin ko kisi amar mai marzi ki ijazat nhi\r\naur jsne aisa kia wo poori tarha se gumrahi  mai hai </span>"
+    },
+    {   
+        "topic":"Musalmaan kon? Muslim?", 
+        "details": "<span class = 'referenceClass'> Quran chapter 24, verse 51 </span> <br/> " +
+            "<span class = 'descriptionClass'> momin wo hain jo Allah aur us k rasool (s.a.w.a.w) ki baat sun kr ata'at kar letey hain </span>"
+    },
+    {   
+        "topic":"Madad | Hidayat | Rehmat | Shifa'at", 
+        "details": "<span class = 'referenceClass'> Quran chapter 28, verse 56 </span> <br/> " +
+            "<span class = 'descriptionClass'> tum jisey chahoo HIDAYAT nhi de saktey . Allah jisey chahey usey HIDAYAT deta hai </span>"
+    },
+    {   
+        "topic":"Madad | Hidayat | Rehmat | Shifa'at", 
+        "details": "<span class = 'referenceClass'> Quran chapter 42, verse 13 </span> <br/> " +
+            "<span class = 'descriptionClass'> Oolul Azam nabi k naam . aur Allah hidayat deta hai jo riju karey </span>"
+    },
+    {
+        "topic":"Musalmaan kon? Muslim?", 
+        "details": "<span class = 'referenceClass'> Mustadrak al-hakim v/67354, page 510, hadees 8294 </span> <br/> " +
+            "<span class = 'descriptionClass'> wo loog/jamaat/qoam jahanum main jayegi jo ye kheti hai k  . js ne ZABAN se KALMA parh lia tu wo SAHIBEY EMAAN ho gaya . ab chahey wo ZINA karey yaan chahey wo QATAL karey </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra | Tauba Qabool Nahi | Allah Hidayat nhi Karta ", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3, Verse 86 to 90 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah aisoo ko hidayat nhi deta jo KUFR karain, emaan aaney k baad. Allah lanat karta hai, farishtey aur Logoo ki ek jamaat. Un ki saza kam na hogi wo bach jayege jinho ne tauba ki aur islaah ki magar jo emaan laaney k baad apney KUFR main barh gaye unki tauba bhi qabool na hogi </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 4, Verse 93 </span> <br/> " +
+            "<span class = 'descriptionClass'> jo koi kisi MUSALMAAN ko jaan bhooj kar qatal karey . tu us ki saza hai DOZAKH . AUR WO HAMESHA US MAIN RAHEGA . Allah ka GAZAB aur LANAT . aur Allah ne us k lye bara azaab tayaar rakha hai </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 47, Verse 23 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ki lanat hai.. behra aur andha kardia hai </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 24, Verse 23 </span> <br/> " +
+            "<span class = 'descriptionClass'> jo loog PAK DAMAN MOMINAAT pr tohmat lagatey hain... un pr dunyah aur akhirat main Lanat hai </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 33, Verse 57 </span> <br/> " +
+            "<span class = 'descriptionClass'> jo ALLAH aur us k Rasool (s.a.w.a.w) ko EZA / TAKLEEF dey us pr dunyah aur akhirat mai LANAT hai...<br/><br/>yaad karo hadees Js ne FATIMA KO EZA DI USNE MUJE AUR ALLAH KO EZA DI.. </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Mustadrak al-hakim V/67354, page 613 to 615, Hadees 8477, 8482, 8483, 8484, 8485 </span> <br/> " +
+            "<span class = 'descriptionClass'> " + 
+            "<b>8477: </b> rasool (s.a.w.a.w) ney mal'oon kaha marwan aur us k baap ko. <br/>" + 
+            "<b>8482: </b> zindah logoon mai nabi (s.a.w.a.w) sb se zyada BANU UMAIYA , BANU HUNEFA aur SAQEEF pr naraz thy. <br/>" + 
+            "<b>8483: </b> ayesha said k nabi ney lanat ki thi marwan k baap pr. Aur marwan mawiya k sath tha <br/>" + 
+            "<b>8484: </b> nabi (s.a.w.a.w) ney in detail marwan aur us key baap ki burai ki hai <br/>" + 
+            "<b>8485: </b> marwan aur us k baap ko lanat di </span>"
+    },
+    {
+        "topic":"Lanat / Tabarra", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3, Verse 86 - 87 </span> <br/> " +
+            "<span class = 'descriptionClass'>  verse#  86 and 87. Allah aisoo ko hidayat nhi deta jo KUFR karain, emaan aaney k baad. Allah lanat karta hai, farishtey aur Logoo ki ek jamaat. </span>"
+    },
     {
         "topic":"Gumaan | Haq | Ghumaan", 
         "details": "<span class = 'referenceClass'> Quran Chapter 10, Verse 36 </span> <br/> " +
