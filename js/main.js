@@ -5,6 +5,8 @@ let displayTopicDiv = document.getElementById("displayTopicDiv");
 let displayDiv = document.getElementById("displayDiv");
 let homeButtonID = document.getElementById("homeButtonID");
 
+
+
 function newLoad () {
     displayReferenceDiv.style.display = "none";
     displayTopicDiv.style.display = "none";

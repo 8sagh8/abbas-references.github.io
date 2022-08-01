@@ -1,5 +1,56 @@
+
 let book = {
 "reference":[
+    {
+        "topic":"Allah zulm nhi karta / Hazrat Mohammad (s.a.w.a.w) sb pr Gawah hongey Qayamat k roz", 
+        "details": "<span class = 'referenceClass'> Quran: Surah Nisa chapter 04, verse 40 to 41 </span> <br/> " +
+            "<span class = 'descriptionClass'> ek ayat mai : Allah bilkul bhi zulm nhi karta <br/> dosri mai: Nabi (s.a.w.a.w) gawah hongey rozey qayamat sb pr</span>"
+    },
+    {
+        "topic":"Kafir kese jahanum mai jayege / dunyah k lye koshish karne wale", 
+        "details": "<span class = 'referenceClass'> Quran: Al Kaif chapter 18, verse 104 to 106 </span> <br/> " +
+            "<span class = 'descriptionClass'> Jo log dunyah k lye koshish karte hain aur khayal karte hain k ache kaam kar rahe hain <b>In k Amaal zayaa kardiye jayege</b> aur Allah bina tarazu lagae jahanum mai daal dega inhe</span>"
+    },
+    {
+        "topic":"Kitaab / Kitab js mai naik logoo k amaal hain", 
+        "details": "<span class = 'referenceClass'> Quran: Mutfafeen chapter 83, verse 18 to 21 </span> <br/> " +
+            "<span class = 'descriptionClass'> Naik logoo k amaal hain ek kitaab main jisey Allah k muqarib dekhte hain <b>Who are they?</b> </span>"
+    },
+    {
+        "topic":"Ahlulbait -e- Rasool (s.a.w.a.w)", 
+        "details": "<span class = 'referenceClass'>Jamia al-tirmizi volume 2 page 113, hadees 2230, 2231, 2232 </span> <br/> " +
+            "<span class = 'descriptionClass'> Mehdi hoga ahlebait se aur Mehdi Hakim / wali hoga, (hukomat karega) </span>"
+    },
+    {
+        "topic":"Khalifa - Prophet(s.a) ney nhi chuna", 
+        "details": "<span class = 'referenceClass'>Tareekh-ul-khulafa, page 23 </span> <br/> " +
+            "<span class = 'descriptionClass'> line 2:-  Nabi (s.a.w.a.w) ne farmaya mai (s.a.w.a.w) islye khalifa nhi chun raha k agar tumney us ki baat na maani tu azaab ajayega </span>"
+    },
+    {
+        "topic":"Khalifa - Prophet(s.a) ney nhi chuna", 
+        "details": "<span class = 'referenceClass'>Jamia al-tirmizi volume 2, page 115, hadees 2225 </span> <br/> " +
+            "<span class = 'descriptionClass'> umar ne kaha Abu bakar ne muje khalifa bana pr Nabi (s.a.w.a.w) ne kisi ko khalifa nhi banaya </span>"
+    },
+    {
+        "topic":"Khalifa - Hazrat Umar chuntey khalifa", 
+        "details": "<span class = 'referenceClass'>Tareekh-ul-khulafa page 139, </span> <br/> " +
+            "<span class = 'descriptionClass'> Mazeed Aqwaal: Umar said agar Salim zindah hotey tu unhey khalifa banata </span>"
+    },
+    {
+        "topic":"Khalifa - Hazrat Umar chuntey khalifa", 
+        "details": "<span class = 'referenceClass'>Musnad ahmad ibn hambal Volume 1, page 133, hadees 129 </span> <br/> " +
+            "<span class = 'descriptionClass'> umar said mai SALIM ya ABU OBAIDA BIN JARRAH ko khalifa chunta </span>"
+    },
+    {
+        "topic":"Khalifa - Prophet(s.a) ney nhi chuna", 
+        "details": "<span class = 'referenceClass'>Musnad ahmad ibn hambal Volume 11, page 10, hadees 24540 </span> <br/> " +
+            "<span class = 'descriptionClass'> bibi ayesha said Hazrat Mohammad(s.a.w.a.w) ney hazrat ali ko wasi nhi chuna </span>"
+    },
+    {
+        "topic":"Khalifa - Nabi (s.a) ne chuna", 
+        "details": "<span class = 'referenceClass'>Jamia al-tirmizi Volume 2, page 1040, hadees 3662, 3663 </span> <br/> " +
+            "<span class = 'descriptionClass'> mere(s.a.w.a.w) baad Abu bakar aur Umar ki pervi karna </span>"
+    },
     {
         "topic":"Khalifa - sirf Quraishi hoga", 
         "details": "<span class = 'referenceClass'>Sahih Muslim Volume 5, page 113, hadees 4701, 4702, 4703, 4704</span> <br/> " +
