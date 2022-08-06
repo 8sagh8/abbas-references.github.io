@@ -2,9 +2,49 @@
 let book = {
 "reference":[
     {   
+        "topic":"Mubahila - Quran 3:61 | Ahlebait", 
+        "details": "<span class = 'referenceClass'>  Tirmazi v/2 page 1077 hadees# 3724  </span> <br/> " +
+            "<span class = 'descriptionClass'> mubahilla mai 5 aur YE HAIN MERE AHLEBAIT, aisa Nabi (s.a.w.a.w) ne farmaya </span>"
+    },
+    {   
+        "topic":"Mubahila - Quran 3:61 | Ahlebait", 
+        "details": "<span class = 'referenceClass'>  Sahih Muslim v/6 page 91 hadees# 6220  </span> <br/> " +
+            "<span class = 'descriptionClass'> mubahilla mai 5 aur YE HAIN MERE AHLEBAIT, aisa Nabi (s.a.w.a.w) ne farmaya </span>"
+    },
+    {   
+        "topic":"Mubahila - Quran 3:61 | Ahlebait", 
+        "details": "<span class = 'referenceClass'> Mishkaat v/3 page 547 hadees# 6135  </span> <br/> " +
+            "<span class = 'descriptionClass'> jb ye verse ayi tu nabi(s.a.w.a.w) farmaya k ye hain mere ahlebait </span>"
+    },
+    {   
+        "topic":"Tatheer - Quran 33:33", 
+        "details": "<span class = 'referenceClass'> Sahih Muslim v/6 page 104 hadees# 6261  </span> <br/> " +
+            "<span class = 'descriptionClass'> aap (s.a.w.a.w) ney charoon ko chadar mai lia aur is ayat ki tilawat ki </span>"
+    },
+    {   
+        "topic":"Tatheer - Quran 33:33", 
+        "details": "<span class = 'referenceClass'> Mishkaat v/3 page 547 hadees# 6136  </span> <br/> " +
+            "<span class = 'descriptionClass'> aap (s.a.w.a.w) ney charoon ko chadar mai lia aur is ayat ki tilawat ki </span>"
+    },
+    {   
+        "topic":"Tatheer - Quran 33:33", 
+        "details": "<span class = 'referenceClass'> Jamia Tirmzi v/2 page 786, 1106, 1142 hadees# 3205, 3787, 3871  </span> <br/> " +
+            "<span class = 'descriptionClass'> <b>ummey salma ko aaney se roka</b> <br /> aap (s.a.w.a.w) ney charoon ko chadar mai lia aur is ayat ki tilawat ki </span>"
+    },
+    {   
+        "topic":"Tatheer - Quran 33:33", 
+        "details": "<span class = 'referenceClass'> musnad ahmed ibne hambal v/12 page 38,50,53,67,68- hadees# 27041, 27042, 27043, 27075, 27085, 27132, 27135  </span> <br/> " +
+            "<span class = 'descriptionClass'> aap (s.a.w.a.w) ney charoon ko chadar mai lia aur is ayat ki tilawat ki <br/> <b>Hadees 27085: </b> umme Salma is also part of it <br/> <b>Hadees 27132: </b> ye char mere khaas log aur ahlebait hain </span>"
+    },
+    {   
+        "topic":"Ahle Bait se muraad kon hain?", 
+        "details": "<span class = 'referenceClass'> Sahih Muslim v/6 page 93, 94, 95, hadees# 6225 to 6228  </span> <br/> " +
+            "<span class = 'descriptionClass'> <b>Biwiaan ahlebait nhi, by sahaba</b><br />doo chezain choor raha hoon QURAN aur ahle-bait, Sahabi ney kaha yaha sirf ye loog muraad hain <br/> 'Ali, Jaffer, Aqeel and Abbas and their kids' </span>"
+    },
+    {   
         "topic":"Jannat k sardar", 
         "details": "<span class = 'referenceClass'> tirmizi v/2 page 1040, hadees# 3664, 3665, 3666 <br/> Sunan ibne Majah v/1 page 167, hadees# 100 <br/> Musnad ahmad Ibne hambal v/1 page 320, hadees# 302  </span> <br/> " +
-            "<span class = 'descriptionClass'> shaikhain (abu bakar & umar) jannat k jawan aur budhoo k sardar hain siwaee nabiyoo k <br/> </span>"
+            "<span class = 'descriptionClass'> shaikhain (abu bakar & umar) jannat k jawan aur budhoo k sardar hain siwaee nabiyoo k </span>"
     },
     {   
         "topic":"Nabi (s.a.w.a.w) ne kisi k peche namaz parhi", 
