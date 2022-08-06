@@ -2,6 +2,121 @@
 let book = {
 "reference":[
     {   
+        "topic":"Jannat k sardar", 
+        "details": "<span class = 'referenceClass'> tirmizi v/2 page 1040, hadees# 3664, 3665, 3666 <br/> Sunan ibne Majah v/1 page 167, hadees# 100 <br/> Musnad ahmad Ibne hambal v/1 page 320, hadees# 302  </span> <br/> " +
+            "<span class = 'descriptionClass'> shaikhain (abu bakar & umar) jannat k jawan aur budhoo k sardar hain siwaee nabiyoo k <br/> </span>"
+    },
+    {   
+        "topic":"Nabi (s.a.w.a.w) ne kisi k peche namaz parhi", 
+        "details": "<span class = 'referenceClass'> musnad ahmed ibne hambal v/11, page 344, hadees# 25770 - 25771 </span> <br/> " +
+            "<span class = 'descriptionClass'> amma ayesha ne farmaya: nabi (s.a.w.a.w) ney abu bakar k pechey beth kr namaz parhi <br/> </span>"
+    },
+    {   
+        "topic":"Paper Pen | hadeese qirtas", 
+        "details": "<span class = 'referenceClass'> Sahih Bukhari v/4, page 440 - 441, hadees# 4431 - 4432  </span> <br/> " +
+            "<span class = 'descriptionClass'> paper pen wala waqiya <br/> </span>"
+    },
+    {   
+        "topic":"Amal Zaaya hona | Nabi (s.a.w.a.w) ka protocol | Umar, Abu Bakar", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 49, verse 02  </span> <br/> " +
+            "<span class = 'descriptionClass'> A! Emaan laane walo, <br/>1- Nabi ki awaz pr tm apni awazeen oonchi na karo, <br/>2- Nabi(s.a.w.a.w) k samney na Zoor se bolo, jese tm ek dosre se buland awaaz main baat karte ho <br/> kahi tmhare amaal zaaya ho jaye aur tmhe pata bhi na chale <br/> <b>Sahih Bukhari v/6, page 502, hadees 7302:</b>Abu Bakar and Umar fighting in the presence of Prophet (s.a.w.a.w) <br/> </span>"
+    },
+    {   
+        "topic":"Nabi (s.a.w.a.w) ka wazeer", 
+        "details": "<span class = 'referenceClass'> Tareekhul Khulafa page 59, para# 2  </span> <br/> " +
+            "<span class = 'descriptionClass'> reference of TIRMIZI, nabi (s.a.w.a.w) ne farmaya asmaan pr un(s.a.w.a.w) k wazeer Jibrael aur Mikaeel aur zameen pr ABU BAKAR aur UMAR hain </span>"
+    },
+    {   
+        "topic":"Hoze Kosar | Sahaba ka Jahanumi hona", 
+        "details": "<span class = 'referenceClass'> musnad ahmed ibne hambal v/11 - 12, page 246 - 51, hadees# 25413 - 27081  </span> <br/> " +
+            "<span class = 'descriptionClass'> hozey kosar pr kuch sahaba ko aaney se roka jayega aur kaha jayega ye AAP(s.a.w.a.w) k baad ye log palat gaye </span>"
+    },
+    {   
+        "topic":"Nabi (s.a.w.a.w) ko sb se zyada Mohabbat", 
+        "details": "<span class = 'referenceClass'> musnad ahmed ibne hambal v/11, page 602, hadees# 26779 </span> <br/> " +
+            "<span class = 'descriptionClass'> Amma Ayesha ne farmaya: nabi(s.a.w.a.w) ko ahle-khana mai sb se zyada mehboob  UMAMA BINTE ZAINAB </span>"
+    },
+    {   
+        "topic":"khalifa ki pervi karo", 
+        "details": "<span class = 'referenceClass'> Sahih Muslim v5, page 136, hadees# 4775 </span> <br/> " +
+            "<span class = 'descriptionClass'> Mere(s.a.w.a.w) haq talfi hogi aur aisi bateen hogi jinko tum bura janogey, dosra ka haq de dena aur apne haq ka ALLAH se sawal karna </span>"
+    },
+    {   
+        "topic":"space mai kese jaye | zoor se niklo", 
+        "details": "<span class = 'referenceClass'> Quran chapter 33, verse 55 </span> <br/> " +
+            "<span class = 'descriptionClass'> zoor k siwa tm nikal nhi sakte</span>"
+    },
+    {   
+        "topic":"La ilaha illalah kehna | imamat", 
+        "details": "<span class = 'referenceClass'> Book: Al Tauheed by Shaikh Sadooq page 28, hadees# 23 </span> <br/> " +
+            "<span class = 'descriptionClass'> Imam e Riza (as) ne kalme ki shartoo mai se ek shart khud ko yaani Imamat ko bataya</span>"
+    },
+    {   
+        "topic":"La ilaha illalah kehna", 
+        "details": "<span class = 'referenceClass'> Book: Al Tauheed by Shaikh Sadooq page 26, hadees# 18 </span> <br/> " +
+            "<span class = 'descriptionClass'> Nabi(s.a.w.a.w) ne farmaya js ne La ilaha illalah sache dil se kaha wo jannat mai jayega aur jisne jhoot kaha tu us ki jaan aur maal mehfooz raha magar wo jahanum mai jayega</span>"
+    },
+    {   
+        "topic":"kafir / kafiroon", 
+        "details": "<span class = 'referenceClass'> Quran chapter 5, verse 44 </span> <br/> " +
+            "<span class = 'descriptionClass'> jo Allah k bheje howe k mutabiq faisla na kare wo kafir hai</span>"
+    },
+    {   
+        "topic":"Zalim / Zalimeen", 
+        "details": "<span class = 'referenceClass'> Quran chapter 5, verse 45 </span> <br/> " +
+            "<span class = 'descriptionClass'> jo Allah k bheje howe k mutabiq faisla na kare wo Zalim / Zalimeen hai</span>"
+    },
+    {   
+        "topic":"Fasiq", 
+        "details": "<span class = 'referenceClass'> Quran chapter 5, verse 47 </span> <br/> " +
+            "<span class = 'descriptionClass'> Injeel waley issey faisla karain, aur jo ussey faisla na kare jisey ALLAH ne nazil kia tu yahi log FASIQ hain </span>"
+    },
+    {   
+        "topic":"Momin k lye nishani", 
+        "details": "<span class = 'referenceClass'> Quran chapter 29, verse 44 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ne asmaan aur zameen ko paida kia haq k sath aur is mai MOMINEEN k lye Nishaani hai </span>"
+    },
+    {   
+        "topic":"Ilm waley", 
+        "details": "<span class = 'referenceClass'> Quran chapter 29, verse 43 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah misaal bayaan karta hai jinhey ILM waloo k siwa koi nhi samajta, pehle Allah ne misaal di jo Allah k siwa dosroo ko madad k lye pukarte hain wo aisa hai jese makri ka ghar</span>"
+    },
+    {   
+        "topic":"Azaab, Saza | Rehamat | Aqal | Na-Paak aur Paak", 
+        "details": "<span class = 'referenceClass'> Quran chapter 5, verse 98 & 100 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah sakht azaab dene wala hai aur bakhshne wala bhi hai. <br/> Barabar nhi <b>Paak aur Na-Paak</b> chahey tmhe na-paak ki kasrat jitni bhi achi lage. <b>Aqal walo Allah se daro k kamiyaab ho jaoo</b></span>"
+    },
+    {   
+        "topic":"Fasiq | Allah hidayat nhi deta", 
+        "details": "<span class = 'referenceClass'> Quran chapter 5, verse 108 </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah fasiqeen ko hidayat nhi deta</span>"
+    },
+    {   
+        "topic":"Namaz ka hukum do", 
+        "details": "<span class = 'referenceClass'> Quran chapter 20, verse 132 </span> <br/> " +
+            "<span class = 'descriptionClass'> Apne ghar waloo ko namaz ka hukum do aur khud bhi qaim raho. Anjaam tu hai Mutaqi k lye</span>"
+    },
+    {   
+        "topic":"Momin kon hai?", 
+        "details": "<span class = 'referenceClass'> Quran chapter 49 Surah Hujrat, verse 15 </span> <br/> " +
+            "<span class = 'descriptionClass'> Momin wo hai jo Allah aur Rasool (s.a.w.a.w) pr emaan laye aur phir wo shak mai na pare. phir Allah ki rah mai Maal aur Jaan se jehaad kia aur yahi log sache hain</span>"
+    },
+    {   
+        "topic":"Muslim / musalmaan / islam / momin | ata'at, ataat | amaal main kami", 
+        "details": "<span class = 'referenceClass'> Quran chapter 49 Surah Hujrat, verse 14 </span> <br/> " +
+            "<span class = 'descriptionClass'> Dehati/ arabi ne kaha k <b>Emaan laaya hai</b> pr nhi tm <b>islaam laye ho</b> emaan tu abhi dil mai dakhil hi nhi howa. agar Allah aur us k rasool (s.a.w.a.w) ki ata'at karo tu Allah tmhare amaal se kuch kam na karega</span>"
+    },
+    {   
+        "topic":"Shanakh, pehchaan | Qabiley, Khandan", 
+        "details": "<span class = 'referenceClass'> Quran chapter 49 Surah Hujrat, verse 13 </span> <br/> " +
+            "<span class = 'descriptionClass'> end of ayat : Indeed, the most noble of you in the sight of Allah is the most righteous of you. | taqwa ka word hai, mutaqi</b></span>"
+    },
+    {   
+        "topic":"Shanakh, pehchaan | Qabiley, Khandan", 
+        "details": "<span class = 'referenceClass'> Quran chapter 49 Surah Hujrat, verse 13 </span> <br/> " +
+            "<span class = 'descriptionClass'> humey banaya tumhe zatoo main aur qabiloo mai taa k tum <b>Pehchane Jaoo</b></span>"
+    },
+    {   
         "topic":"Madad Karo", 
         "details": "<span class = 'referenceClass'> Quran chapter 05, verse 2 </span> <br/> " +
             "<span class = 'descriptionClass'> At the end of ayat: tm madad karo ek dosre ki Naiki aur Parhaizgari main aur na karo madad Gunah aur Ziyadti/ Sarkashi main</span>"
