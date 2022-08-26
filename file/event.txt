@@ -1,0 +1,16 @@
+
+let details = {
+    "ev":[
+        {   
+            "name":"<p><u>Imam Hussain (as):</u><br/>wiladat: N/A <br />shahadat: Karbala 10th Moharram</p>",
+            "birth": "03",
+            "death": "61",
+        },
+        {   
+            "name":"<p><u>Prophet Mohammad (sawaw):</u><br/>wiladat: same year of Aamul Feel <br />shahadat: 28 Saffar Madinah</p>",
+            "birth": "-01",
+            "death": "11",
+        },
+       
+    ]
+}

@@ -3,7 +3,9 @@ let searchTopicButtonID = document.getElementById("searchTopicButtonID");
 let displayReferenceDiv= document.getElementById("displayReferenceDiv");
 let displayTopicDiv = document.getElementById("displayTopicDiv");
 let displayDiv = document.getElementById("displayDiv");
+let displayEventDiv = document.getElementById("displayEventDiv");
 let homeButtonID = document.getElementById("homeButtonID");
+let eventButtonID = document.getElementById("eventButtonID");
 let sideNavID = document.getElementById("sideNavID");
 
 // array of words those i don't want in topic list
@@ -17,6 +19,7 @@ let arrayDontWant = ["", " ", "(a.s)", "(s.a)", "(s.a.w.a.w)", "-", "/", "|", "-
 function newLoad () {
     displayReferenceDiv.style.display = "none";
     displayTopicDiv.style.display = "none";
+    displayEventDiv.style.display = "none";
     displayDiv.style.display = 'block';
     let data = book["reference"];
     let topicArray = new Array();
@@ -61,6 +64,7 @@ homeButtonID.addEventListener("click", newLoad);
 searchAllButtonID.addEventListener("click", function() {
     displayDiv.style.display = 'none';
     displayTopicDiv.style.display = 'none';
+    displayEventDiv.style.display = "none";
     displayReferenceDiv.style.display = "block";
 
     let data = book["reference"];
@@ -88,6 +92,7 @@ searchAllButtonID.addEventListener("click", function() {
 searchTopicButtonID.addEventListener("click", function() {
     displayDiv.style.display = 'none';
     displayReferenceDiv.style.display = "none";
+    displayEventDiv.style.display = "none";
     displayTopicDiv.style.display = "block";
 
     let data = book["reference"];
@@ -104,6 +109,67 @@ searchTopicButtonID.addEventListener("click", function() {
     text += '</div> </div>';
     displayTopicDiv.innerHTML = text;
  
+
+});
+
+// Displaying Events Page
+eventButtonID.addEventListener("click", function() {
+    displayDiv.style.display = 'none';
+    displayReferenceDiv.style.display = "none";
+    displayTopicDiv.style.display = "none";
+    displayEventDiv.style.display = "block";
+
+    let data = details["ev"];
+    let dateDict = {};
+    let dateArray = [];
+    
+
+    for (let i = 0; i < data.length; i++){
+        let birth = data[i]["birth"];
+        let death = data[i]["death"];
+        let name = data[i]["name"];
+
+        if (birth in dateDict){
+            dateDict[birth].push(name);
+
+        }else{
+            dateDict[birth] = [name];
+            dateArray.push(birth);
+        }
+        if (death in dateDict){
+            dateDict[death].push(name);
+
+        }else{
+            dateDict[death] = [name];
+            dateArray.push(death);
+        }
+    }
+
+
+    dateArray.sort();
+    let text = '<ul>';
+
+    for (let i = 0; i < dateArray.length; i++){
+        let key = dateArray[i];
+
+        text += '<li>' + key + '</li>';
+        text += '<ol>'
+
+        for (let j = 0; j < dateDict[key].length; j++){
+            text += '<li>'
+            text += dateDict[key][j]
+            text += '</li>'
+        }
+        text += '</ol>';
+
+
+        console.log(key);
+        console.log(dateDict[key])
+        console.log("============================\n")
+    }
+    text += '</ul>';
+   
+    displayEventDiv.innerHTML = text;
 
 });
 
