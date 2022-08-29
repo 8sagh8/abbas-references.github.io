@@ -147,27 +147,34 @@ eventButtonID.addEventListener("click", function() {
 
 
     dateArray.sort();
-    let text = '<ul>';
+    let text = '<div class="container"> <div class="row">';
 
     for (let i = 0; i < dateArray.length; i++){
         let key = dateArray[i];
 
-        text += '<li>' + key + '</li>';
+        text += '<div class="card col-4s contClass" style="width: 18rem;" id = ' + (i + 1) + '> <div class="card-body">';
+        text += '<h5 class="card-text topicClass">' + key + ' yrs A.H </h5><hr/>';
+        
         text += '<ol>'
 
         for (let j = 0; j < dateDict[key].length; j++){
             text += '<li>'
-            text += dateDict[key][j]
+            text += '<p class="paraClass">' + dateDict[key][j] + '</p>';
             text += '</li>'
         }
         text += '</ol>';
+        text += '</div> </div>';
 
+        // 
+        
+           
+        // 
 
         console.log(key);
         console.log(dateDict[key])
         console.log("============================\n")
     }
-    text += '</ul>';
+    text += '</div></div>';
    
     displayEventDiv.innerHTML = text;
 

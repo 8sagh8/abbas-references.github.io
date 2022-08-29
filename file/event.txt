@@ -2,15 +2,77 @@
 let details = {
     "ev":[
         {   
-            "name":"<p><u>Imam Hussain (as):</u><br/>wiladat: N/A <br />shahadat: Karbala 10th Moharram</p>",
+            "name":"<p><u>Prophet Mohammad (sawaw):</u><br/>wiladat: same year of Aamul Feel <br />shahadat: 28 Saffar Madinah</p>",
+            "birth": "- 53 before",
+            "death": "11",
+        },
+        {   
+            "name":"<p><u>Mola Ali (as):</u><br/>wiladat: in Kaaba 13 Rajab <br />shahadat: 21st Ramdaan</p>",
+            "birth": "- 22 before",
+            "death": "40",
+        },
+
+        {   
+            "name":"<p><u>Syeda Fatima (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "- 07 before",
+            "death": "11",
+        },
+        {   
+            "name":"<p><u>Imam Hassan (as):</u><br/>wiladat:  <br />shahadat: </p>",
             "birth": "03",
+            "death": "50",
+        },
+        {   
+            "name":"<p><u>Imam Hussain (as):</u><br/>wiladat: N/A <br />shahadat: Karbala 10th Moharram</p>",
+            "birth": "04",
             "death": "61",
         },
         {   
-            "name":"<p><u>Prophet Mohammad (sawaw):</u><br/>wiladat: same year of Aamul Feel <br />shahadat: 28 Saffar Madinah</p>",
-            "birth": "-01",
-            "death": "11",
+            "name":"<p><u>Imam Zainul Abideen (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "38",
+            "death": "95",
         },
+        {   
+            "name":"<p><u>Imam Mohammad Baqir(as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "57",
+            "death": "114",
+        },
+        {   
+            "name":"<p><u>Imam Jaffer Sadiq(as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "83",
+            "death": "148",
+        },
+        {   
+            "name":"<p><u>Imam Mosa Kazim (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "128",
+            "death": "183",
+        },
+        {   
+            "name":"<p><u>Imam Ali Riza (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "148",
+            "death": "203",
+        },
+        {   
+            "name":"<p><u>Imam Mohammad Taqi (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "195",
+            "death": "220",
+        },
+        {   
+            "name":"<p><u>Imam Ali Naqi (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "212",
+            "death": "254",
+        },
+        {   
+            "name":"<p><u>Imam Hassan Askari (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "232",
+            "death": "260",
+        },
+        {   
+            "name":"<p><u>Imam Zamana (as):</u><br/>wiladat:  <br />shahadat: </p>",
+            "birth": "255",
+            "death": "",
+        },
+        
        
     ]
 }

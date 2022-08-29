@@ -101,6 +101,11 @@
     background-color: white;
 }
 
+/* p tag within card */
+.paraClass{
+  font-size: 8px;
+}
+
 /* Footer */
 footer{
     position: fixed;
