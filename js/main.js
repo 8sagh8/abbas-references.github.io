@@ -112,6 +112,21 @@ searchTopicButtonID.addEventListener("click", function() {
 
 });
 
+// sort Array of date because built-in sort method not working properly
+function sortArray(value){
+    let size = value.length;
+    for (let i = 0; i < size - 1; i++){
+        for (let j = i+1; j < size; j++){
+            let a = value[i]
+            if (a > value[j]){
+                value[i] = value[j];
+                value[j] = a;
+            }
+        }
+    }
+    return value
+}
+
 // Displaying Events Page
 eventButtonID.addEventListener("click", function() {
     displayDiv.style.display = 'none';
@@ -146,10 +161,13 @@ eventButtonID.addEventListener("click", function() {
     }
 
 
-    dateArray.sort();
+    // sorting Date Array using own created function
+    dateArray = sortArray(dateArray)
+
     let text = '<div class="container"> <div class="row">';
 
     for (let i = 0; i < dateArray.length; i++){
+
         let key = dateArray[i];
 
         text += '<div class="card col-4s contClass" style="width: 18rem;" id = ' + (i + 1) + '> <div class="card-body">';
@@ -165,14 +183,7 @@ eventButtonID.addEventListener("click", function() {
         text += '</ol>';
         text += '</div> </div>';
 
-        // 
-        
-           
-        // 
-
-        console.log(key);
-        console.log(dateDict[key])
-        console.log("============================\n")
+    
     }
     text += '</div></div>';
    
