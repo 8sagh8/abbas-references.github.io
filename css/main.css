@@ -106,6 +106,20 @@
   font-size: 8px;
 }
 
+
+.keyClass{
+  margin-top: 1vh;
+  font-size: 24px;
+  color: gold;
+  margin-left: 15px;
+}
+.olDivClass{
+  color: white;
+  font-size: 16px;
+  margin-left: 2rem;
+  border-left: solid white 2px;
+}
+
 /* Footer */
 footer{
     position: fixed;

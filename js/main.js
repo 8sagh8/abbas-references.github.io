@@ -145,17 +145,17 @@ eventButtonID.addEventListener("click", function() {
         let name = data[i]["name"];
 
         if (birth in dateDict){
-            dateDict[birth].push(name);
+            dateDict[birth].push(name + ", titleMark Widalat");
 
         }else{
-            dateDict[birth] = [name];
+            dateDict[birth] = [name + ", titleMark Widalat"];
             dateArray.push(birth);
         }
         if (death in dateDict){
-            dateDict[death].push(name);
+            dateDict[death].push(name + ", titleMark Shahadat");
 
         }else{
-            dateDict[death] = [name];
+            dateDict[death] = [name + ", titleMark Shahadat"];
             dateArray.push(death);
         }
     }
@@ -164,28 +164,28 @@ eventButtonID.addEventListener("click", function() {
     // sorting Date Array using own created function
     dateArray = sortArray(dateArray)
 
-    let text = '<div class="container"> <div class="row">';
+    let text = '<ul>';
 
     for (let i = 0; i < dateArray.length; i++){
 
         let key = dateArray[i];
-
-        text += '<div class="card col-4s contClass" style="width: 18rem;" id = ' + (i + 1) + '> <div class="card-body">';
-        text += '<h5 class="card-text topicClass">' + key + ' yrs A.H </h5><hr/>';
-        
-        text += '<ol>'
-
+        text += '<li class = "keyClass">' + key + ' Hijra</li>';
+        text += '<div class = "olDivClass"><ol>';
         for (let j = 0; j < dateDict[key].length; j++){
-            text += '<li>'
-            text += '<p class="paraClass">' + dateDict[key][j] + '</p>';
-            text += '</li>'
-        }
-        text += '</ol>';
-        text += '</div> </div>';
-
-    
+                let pos1 = dateDict[key][j].indexOf("<u>") + 3;
+                let pos2 = dateDict[key][j].indexOf("</u>") - pos1;
+                let pos3 = dateDict[key][j].indexOf("titleMark") + 10;
+                let pos4 = 8;
+                
+                let name = dateDict[key][j].substr(pos1, pos2);
+                let title = dateDict[key][j].substr(pos3, pos4)
+                
+                text += '<li><i>' + title + ":</i> " + name + '</li>';
+                
+            }
+        text += '</ol></div>';    
     }
-    text += '</div></div>';
+    text += '</ul>'
    
     displayEventDiv.innerHTML = text;
 
