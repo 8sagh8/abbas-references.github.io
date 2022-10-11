@@ -2,6 +2,35 @@
 let book = {
 "reference":[
     {   
+        "topic":"Oolul Amar | Ata'at | Ataat", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 4, verse 59  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah Emaan waloo ko hukum de raha hai k ata'at karo Allah ki aur ata'at karo Rasool (s.a.w.a.w) aur Oolul Amar ki. Yaani Allah, Nabi(s.a.w.a.w) aur Oolum Amar filhaal Emaan walo main shamil nhi. Q k shamil kia tu phir Nabi(s.a.w.a.w) se bhi jagra karne ka lisence mil jayega</span>"
+    },
+
+    {   
+        "topic":"Zalim | Wahi | Allah pr jhoot", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 6, verse 93  </span> <br/> " +
+            "<span class = 'descriptionClass'> Us se bara zalim aur kon hoga jo Allah pr Jhoot bandhey aur kahe us pr WAHI aati hai jb k nhi aati</span>"
+    },
+
+    {   
+        "topic":"Ache or Bure Kaam | Achae | Burae", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 17, verse 7  </span> <br/> " +
+            "<span class = 'descriptionClass'> Agar tmne bhalai / achai ki tu khud k lye ki aur agar koi burae ki tu wo bhi khud k lye</span>"
+    },
+
+    {   
+        "topic":"Mohabbat | Ata'at | Ataat", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3, verse 31  </span> <br/> " +
+            "<span class = 'descriptionClass'> aap(s.a.w.a.w) kehdain k agar tm Allah se mohabbat karte ho tu meri (s.a.w.a.w) mervi/ata'at karo tu Allah bhi tmse mohabbat karega aur tmhare Gunnah baksh dega </span>"
+    },
+    {   
+        "topic":"Kafir | Ata'at | Ataat | Mohabbat | Dost", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3, verse 32  </span> <br/> " +
+            "<span class = 'descriptionClass'> aap(s.a.w.a.w) kehde k tm ata'at karo Allah aur us k rasool (s.a.w.a.w) ki aur agar koi phir jaye tu Allah kafiroo ko dost nhi rakhta </span>"
+    },
+
+    {   
         "topic":"Mubahila - Quran 3:61 | Ahlebait", 
         "details": "<span class = 'referenceClass'>  Tirmazi v/2 page 1077 hadees# 3724  </span> <br/> " +
             "<span class = 'descriptionClass'> mubahilla mai 5 aur YE HAIN MERE AHLEBAIT, aisa Nabi (s.a.w.a.w) ne farmaya </span>"

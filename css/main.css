@@ -65,6 +65,7 @@
 /* Main Div in Body */
 .main {
     margin-left: 150px; /* Same as the width of the sidenav */
+    height: auto;
     background-color: #818181;
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
