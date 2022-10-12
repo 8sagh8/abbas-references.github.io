@@ -4,12 +4,19 @@ let book = {
     {   
         "topic":"Ayat Tatheer | Ek etraz ka jawab", 
         "details": "<span class = 'referenceClass'> Quran Chapter 31 Surah Luqman, verse 13 to 17  </span> <br/> " +
-            "<span class = 'descriptionClass'>  <b>Etraz: </b>Ayat Tatheer se pehle aur baad main parh lo ye tu Nabi (s.a.w.a.w) ki biwioo se khitaab hai tu sirf Ahlulbait k lye alag chaar log kyuo?<br>
-                <b>Jawab: </b>Surah Luqman ayat 13 main Hazrat Luqman ka khitaab hai un k baite k sath aur word mojood hai 'Qala Luqmaano Libnihi | Kaha luqman ne apne baite ko' <br>
-                            ayat 14 - 15, in donoo main Allah ka khitaab hai logoo se, aur in ayat main Allah ne khud ka naam hi nhi lia k farq paida ho k ye Allah ka kalaam hai yaa hazrat luqman ka <br>
-                            ayat 16 - 17, phir in main hazrat luqmaan ka khitaab aagaya un k baitey k sath. <br>
-                            issi lye pehle Quran ka osloob samajhna chahye phir etraaz karna chahye, sirf jahiloo ki sun kr Sunni nhi hona chahye </span>"
+            "<span class = 'descriptionClass'>  <b>Etraz: </b>     Ayat Tatheer se pehle aur baad main parh lo ye tu Nabi (s.a.w.a.w) ki biwioo se khitaab hai tu sirf Ahlulbait k lye alag chaar log kyuo?<br>" +
+                "<b>Jawab: </b>Surah Luqman <u><i>ayat 13</i></u> main Hazrat Luqman ka khitaab hai un k baite k sath aur word mojood hai 'Qala Luqmaano Libnihi | Kaha luqman ne apne baite ko' <br>" +
+                "<u><i>ayat 14 - 15</i></u>, in donoo main Allah ka khitaab hai logoo se, aur in ayat main Allah ne khud ka naam hi nhi lia k farq paida ho k ye Allah ka kalaam hai yaa hazrat luqman ka <br>" +
+                "<u><i>ayat 16 - 17</i></u>, phir in main hazrat luqmaan ka khitaab aagaya un k baitey k sath. <br>" +
+                "issi lye pehle Quran ka osloob samajhna chahye phir etraaz karna chahye, sirf jahiloo ki sun kr Sunni nhi hona chahye </span>"
     },
+     {   
+        "topic":"Maa baap ki ata'at | parents | Shirk", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 31 Surah Luqman, verse 15  </span> <br/> " +
+            "<span class = 'descriptionClass'>  agar maa baap | parents shirk ka hukum de / khuda ki na-farmani ka hukum dain tu un ki baat na manoo <b>magar dunyah main acha sulook jaari rakho parents k sath</b> </span>"
+    },
+
+   
     {   
         "topic":"Oolul Amar | Ata'at | Ataat", 
         "details": "<span class = 'referenceClass'> Quran Chapter 4, verse 59  </span> <br/> " +
