@@ -2,6 +2,15 @@
 let book = {
 "reference":[
     {   
+        "topic":"Ahlal Bait | Hadees e Qirtas | Paper and Pen | Sahaba bhi Ahlul Bait", 
+        "details": "<span class = 'referenceClass'> Sahih Bukhari Hadees# 4432  </span> <br/> " +
+            "<span class = 'descriptionClass'>  <b>Point 1: Ahlul Bait</b> <br/> * Arabic main word Ahlul Bait use howa hai <br/> * agar Ahlul bait se muraaf wives tu SUNNI q nhi kehte k biwiyoo ne ikhtilaaf kia aur jagra bhi? <br/>" +
+                            "* agar jagra SAHABA ne kia tu phir Ahlul bait main Sahaba bhi aate hain aur Ayat Tatheer main bhi <br />" +
+                            "* warna Shia aur Quran ka view durust hai k Ayat Tatheer main sirf 4 hain Ali, Fatima, Hassan aur Hussain (salamun alaihum) <br /><br />" +
+                            "<b>Point 1: Mukhatib / Addressing To</b> <br />" + 
+                            "* saaf likha hai k <i>Kuch Mard Thy Ghar Main</i> aur Un Se Nabi(s.a.w.a.w) k tm gumrah na ho jaoo tu likh doo, it was not for entire Muslim Ummah but for those who were there. jb unhone ne nhi lia tu Nabi (s.a.w.a.w) ki duty nhi k force karte </span>"
+    },
+    {   
         "topic":"Ayat Tatheer | Ek etraz ka jawab", 
         "details": "<span class = 'referenceClass'> Quran Chapter 31 Surah Luqman, verse 13 to 17  </span> <br/> " +
             "<span class = 'descriptionClass'>  <b>Etraz: </b>     Ayat Tatheer se pehle aur baad main parh lo ye tu Nabi (s.a.w.a.w) ki biwioo se khitaab hai tu sirf Ahlulbait k lye alag chaar log kyuo?<br>" +
