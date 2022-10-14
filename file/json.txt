@@ -2,6 +2,26 @@
 let book = {
 "reference":[
     {   
+        "topic":"Rijat | Rijaat | Cow Gayee", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 2 Surah Baqrah, verse 73  </span> <br/> " +
+            "<span class = 'descriptionClass'> Maqtool ko gaye | cow ka tukra lagaoo aur Allah murdey ko zindah karega</span>"
+    },
+    {   
+        "topic":"Rijat | Rijaat | Hazrat Essa", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3 Surah Ale Imran, verse 49  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah k hukum se qabar se murdoo ko nikaal k zindah khara kar dete, matti se parindo ko banate aur phonk marte tu zindah aur bemaar ko shifa dete </span>"
+    },
+    {   
+        "topic":"Rijat | Rijaat | Hazrat Essa", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 5 Surah Maida, verse 110  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah k hukum se qabar se murdoo ko nikaal k zindah khara kar dete, matti se parindo ko banate aur phonk marte tu zindah aur bemaar ko shifa dete </span>"
+    },
+    {   
+        "topic":"Qibla | Namaz Qaim Karo | Momin", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 10 Surah Yunus, verse 87  </span> <br/> " +
+            "<span class = 'descriptionClass'> Starting main Hazrat Musa aur Haroon k through un ki qoam k lye hukum hai magar aagey hai k Apne Gharo ko Qibla banao aur Namaz qaim karo aur momineen ko khush'khabri dedo </span>"
+    },
+    {   
         "topic":"Ahlal Bait | Hadees e Qirtas | Paper and Pen | Sahaba bhi Ahlul Bait", 
         "details": "<span class = 'referenceClass'> Sahih Bukhari Hadees# 4432  </span> <br/> " +
             "<span class = 'descriptionClass'>  <b>Point 1: Ahlul Bait</b> <br/> * Arabic main word Ahlul Bait use howa hai <br/> * agar Ahlul bait se muraaf wives tu SUNNI q nhi kehte k biwiyoo ne ikhtilaaf kia aur jagra bhi? <br/>" +
