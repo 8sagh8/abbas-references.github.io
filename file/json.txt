@@ -2,6 +2,37 @@
 let book = {
 "reference":[
     {   
+        "topic":"Allah ki Rehmat | Azaab | Mujrim", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 12 Surah Yusuf, verse 77  </span> <br/> " +
+            "<span class = 'descriptionClass'> Yusuf Nabi k bhaiyoo ne ilzaam lagaya k Yusuf ne bhi choori ki thi, " + 
+            "tu Yusuf Nabi ne unhey jhutlaya nhi aur baat chupayi aur kaha k jo tm kehte ho usey Allah janta hai" + 
+            "<br /><b>Sawal: agar Yusuf khud pr jhoota ilzaam chupaee tu theek aur Nabi (s.a.w.a.w) agar apne sath munafiq aur gunah garoo k gunah pr khamoos " +
+            "rahe, tu q etraaz hota hai k Nabi (s.a.w.a.w) ne unhe sath q rakha?</b>  </span>"
+    },
+    {   
+        "topic":"Allah ki Rehmat | Azaab | Mujrim", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 06 Surah An'aam, verse 147  </span> <br/> " +
+            "<span class = 'descriptionClass'> jo Aap (s.a.w.a.w) ko jhutlaye tu Allah bht reham karne wala hai aur Allah k azaab se koi mujrim nhi bachey ga  </span>"
+    },
+    {   
+        "topic":"Quran | Zalim", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 06 Surah An'aam, verse 157  </span> <br/> " +
+            "<span class = 'descriptionClass'> Sb se bara zalim woh hai jo Allah ki ayaat ko jhutlaye  </span>"
+    },
+    {   
+        "topic":"Quran | Hidayat | Qayamat | Nabi ki shikayat", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 25 Surah Furqan, verse 30  </span> <br/> " +
+            "<span class = 'descriptionClass'> Qayamat k roz Nabi (s.a.w.a.w) Allah se shikayat karegain " +
+                        "meri is ummat ne Quran ko thukra dia </span>"
+    },
+    {   
+        "topic":"Quran | Hidayat | Qayamat | Ahlul Bait", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 28 Surah Qasas, verse 85  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ne Quran islye lazim kia, k Quran apni leadership main tmhe Qayamat k din le ayega hidayat k sath, Allah janta hai kon haadi hai aur " +
+                        "kon gumrah [<i>Mafhoom hai ayat ka</i>], ajeeb hai, Quran tu hidayat karta howa Allah k pass le jaye qayamat mai, aur Ahlul bait khud jo " + 
+                        "quran k sath hi hai wo galti pr ajaye</span>"
+    },
+    {   
         "topic":"Rijat | Rijaat | Cow Gayee", 
         "details": "<span class = 'referenceClass'> Quran Chapter 2 Surah Baqrah, verse 73  </span> <br/> " +
             "<span class = 'descriptionClass'> Maqtool ko gaye | cow ka tukra lagaoo aur Allah murdey ko zindah karega</span>"
