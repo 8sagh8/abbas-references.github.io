@@ -2,6 +2,12 @@
 let book = {
 "reference":[
     {   
+        "topic":"Sahaba | Sahib | Majnoon", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 7 Surah Aaraf, verse 184  </span> <br/> " +
+            "<span class = 'descriptionClass'> Agar Quran kisi ko Nabi (s.a.w.a.w) ka sahabi kehde tu SUNNI aqeedey main wo MOMIN,<br />" + 
+            "tu is ayat main jinhey Quran keh raha hai Sahabi, unko momin q nhi kehte SUNNi?  </span>"
+    },
+    {   
         "topic":"Allah ki Rehmat | Azaab | Mujrim", 
         "details": "<span class = 'referenceClass'> Quran Chapter 12 Surah Yusuf, verse 77  </span> <br/> " +
             "<span class = 'descriptionClass'> Yusuf Nabi k bhaiyoo ne ilzaam lagaya k Yusuf ne bhi choori ki thi, " + 
