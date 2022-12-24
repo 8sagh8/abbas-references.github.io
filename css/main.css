@@ -1,35 +1,4 @@
 
-
-
-/* Vertical Nav Bar */
-.sidenav {
-    height: 100%;
-    width: 150px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-
-  }
-  
-  .sidenav a {
-    background-color: #111;
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 12px;
-    color: white;
-    display: block;
-    font-weight: bold;
-  }
-  
-  .sidenav a:hover {
-    background-color: antiquewhite;
-    color: blue;
-  }
-
 /* top menu bar */
 .navbar {
     overflow: hidden;
@@ -64,12 +33,19 @@
 
 /* Main Div in Body */
 .main {
-    margin-left: 150px; /* Same as the width of the sidenav */
-    height: auto;
+    /* margin-left: 150px; Same as the width of the sidenav */
+    height: 100%;
+    width: 100%;
     background-color: #818181;
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
     padding-bottom: 25px;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
   }
 
 
@@ -132,8 +108,8 @@ footer{
    text-align: center;
 }
 
-/* screen media */
+/* screen media
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+  } */
