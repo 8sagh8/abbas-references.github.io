@@ -2,6 +2,39 @@
 let book = {
 "reference":[
     {   
+        "topic":"Rijs in Quran | Ahlul Bait se Rijs door", 
+        "details": "<span class = 'referenceClass'> In Quran <br/> " +
+            "<span class = 'descriptionClass'> " +
+            "<br /> <b>1) Quran Chapter 5 Surah Maidah, verse 90:</b> <br/>" + 
+            "Rijs: Sharaab (intoxicants), Jowa (games of chance), Butt (sacrifies at altars), Phanse (divining arrows) <br />" + 
+
+            "<br /> <b>2) Quran Chapter 6 Surah An'aam, verse 125:</b> <br/>" + 
+            "Rijs: Allah un pr rijs/azaab dalega jo log Emaan nhi laatey <br />" + 
+  
+            "<br /> <b>3) Quran Chapter 5 Surah An'aam, verse 145:</b> <br/>" + 
+            "Rijs: Murdaar, behta khoon, soowar ka gosht rijs/ napak / haram hain <br />" + 
+
+            "<br /> <b>4) Quran Chapter 7 Surah A'raaf, verse 71:</b> <br/>" + 
+            "Rijs: Azaab... nabi ne butt paristoo se kaha <br />" + 
+       
+            "<br /> <b>5) Quran Chapter 9 Surah Tauba, verse 95:</b> <br/>" + 
+            "Rijs: najis, khabees <br />" + 
+
+            "<br /> <b>6) Quran Chapter 9 Surah Tauba, verse 125:</b> <br/>" + 
+            "Rijs: najis, gandagi, kufr <br />" + 
+        
+            "<br /> <b>7) Quran Chapter 10 Surah Yunus, verse 100:</b> <br/>" + 
+            "Rijs: jo aqal istemaal nhi karte khuda un pr Najasat/ gandagi/ kufr/ gumrahi daalta hai <br />" + 
+
+            "<br /> <b>8) Quran Chapter 22 Surah Hajj, verse 30:</b> <br/>" + 
+            "Rijs: najis/ napaak <br />" + 
+   
+            "<br /> <b>9) Quran Chapter 33 Surah Azaab, verse 3390:</b> <br/>" + 
+            "Rijs: najasat/ napaki <br />" + 
+
+            "</span>"
+    },
+    {   
         "topic":"Sahaba | Sahib | Majnoon", 
         "details": "<span class = 'referenceClass'> Quran Chapter 7 Surah Aaraf, verse 184  </span> <br/> " +
             "<span class = 'descriptionClass'> Agar Quran kisi ko Nabi (s.a.w.a.w) ka sahabi kehde tu SUNNI aqeedey main wo MOMIN,<br />" + 
