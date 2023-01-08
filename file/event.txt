@@ -17,6 +17,7 @@ let details = {
             "birth": -7,
             "death": 11,
         },
+        
         {   
             "name":"<p><u>Imam Hassan (as):</u><br/>wiladat:  <br />shahadat: </p>",
             "birth": 3,

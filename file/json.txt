@@ -2,6 +2,57 @@
 let book = {
 "reference":[
     {   
+        "topic":"Allah ne Hidayat ki", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 6 surah Al Anaam, verse 83-87  </span> <br/> " +
+            "<span class = 'descriptionClass'> Nabiyoo k naam lye aur farmaya akhri ayat main, kuch in k baap daada aur aulaad bhaiyoo ko chunna aur Allah hi seedhey raste ki hidayat di  </span>"
+    },
+    {   
+        "topic":"Nabi by Birth hota hai", 
+        "details": "<span class = 'referenceClass'> Quran Chapter 3 surah Ale Imran, verse 38-39  </span> <br/> " +
+            "<span class = 'descriptionClass'> Hazrat Zakriya ne ek Baitey ki dua ki aur Allah ne jawab main kaha k Nabi hoga wo baita  </span>"
+    },
+    {   
+        "topic":"Khalifa in Quran | Imam | Badshah", 
+        "details": "<span class = 'referenceClass'> In Quran <br/> " +
+            "<span class = 'descriptionClass'> " +
+            "<br /> <b>1) Quran Chapter 2 Surah Baqarah, verse 30:</b> <br/>" + 
+            "Khalifa: Allah zameen main Khalifa ka banane wala hai... yaha VERB use hota hai Khalifa k sath na k noun <br />" + 
+
+            "<br /> <b>2) Quran Chapter 2 Surah Baqarah, verse 246 - 247:</b> <br/>" + 
+            "Badshah: Bani Israel ne Hazrat Moosa k baad apne Nabi se kaha k Badshah bana doo... hazrat taloot ka zikr <br />" +
+            "Allah ne usey ye dia hai -Zyada Ilm, Jism ki taqat aur Allah jisey chahta hai mulk deta hai<br />" + 
+  
+            "<br /> <b>3) Quran Chapter 4 Surah Nisaa, verse 54:</b> <br/>" + 
+            "Mulk: Allah ne Ale-Ibrahim Kitaab, Hikmat aur Mulk dia gaya <br />" + 
+
+            "<br /> <b>4) Quran Chapter 5 Surah Maidah, verse 12:</b> <br/>" + 
+            "Sardaar: Allah ne 12 sardaar banaee Bani Israeel main se <br />" + 
+       
+            "<br /> <b>5) Quran Chapter 5 Surah Anaam, verse 165:</b> <br/>" + 
+            "Khalifa: Allah ne khalifa banaya <br />" + 
+
+            "</span>"
+    },
+    {   
+        "topic":"Sahaba in Hell Fire", 
+        "details": "<span class = 'referenceClass'> In Sunni Hadith Book <br/> " +
+            "<span class = 'descriptionClass'> " +
+            "<br /> <b>1) Sahih Bukhari, V/3, Page 599, Hadith# 3447:</b> <br/>" + 
+            "some sahaba in JANNAT and some in HELL <br />" + 
+
+            "<br /> <b>2) Sahih Bukhari, V/6, Page 118, 120 to 124, Hadith# 6576, 6582 to 6593:</b> <br/>" + 
+            "hozey kosar wala scene <br />" + 
+
+            "<br /> <b>3) Mmusnad ahmed ibn hambal, V/11, Page 246, Hadith# 25413:</b> <br/>" + 
+            "hozey kosar pr kuch sahaba ko aaney se roka jayega aur kaha jayega ye AAP(s.a.w.a.w) k baad ye log palat gaye <br />" + 
+
+            "<br /> <b>3) Mmusnad ahmed ibn hambal, V/12, Page 51, Hadith# 27081:</b> <br/>" + 
+            "hozey kosar wala scene <br />" + 
+
+            "</span>"
+    },
+
+    {   
         "topic":"Rijs in Quran | Ahlul Bait se Rijs door", 
         "details": "<span class = 'referenceClass'> In Quran <br/> " +
             "<span class = 'descriptionClass'> " +
