@@ -2,6 +2,14 @@
 let book = {
 "reference":[
     {   
+        "topic":"Sahaba Odool, Adil | Hazrat Omar ko ahadees nahi pata", 
+        "details": "<span class = 'referenceClass'> Sahih Muslim V/5 page 314 to 318, Hadees# 5626 to 5634  </span> <br/> " +
+            "<span class = 'descriptionClass'> Abu Mosa Ashari ko bulaya Hazrat Umar ne, teen dafa salam kr k ijazat li nhi mili tu wapis ho liye q k hadees mai yahi hukum hai. Umar ne baad main kaha k is amal pr hadees laoo warna saza doonga" +
+            "<br /> Agar sahabi adil hain tu Umar ne kyuo kaha k gawah lao warna saza doonga, usey tu kehna tha k tum adil ho gawah nhi chahye <br />" +
+            "Sahih Bukhari main bhi hai, abhi reference nhi <br />" +
+            "<b>Quran Surah Nur #24, verse 27-28, yahi hukum hai quran ka, k salam karo aur ijazat na mile tu wapis lotoo... Hazrat Umar ko tu Quran ki ayaat ka bhi nhi pata  </span>"
+    },
+    {   
         "topic":"Allah ne Hidayat ki", 
         "details": "<span class = 'referenceClass'> Quran Chapter 6 surah Al Anaam, verse 83-87  </span> <br/> " +
             "<span class = 'descriptionClass'> Nabiyoo k naam lye aur farmaya akhri ayat main, kuch in k baap daada aur aulaad bhaiyoo ko chunna aur Allah hi seedhey raste ki hidayat di  </span>"
@@ -12,7 +20,7 @@ let book = {
             "<span class = 'descriptionClass'> Hazrat Zakriya ne ek Baitey ki dua ki aur Allah ne jawab main kaha k Nabi hoga wo baita  </span>"
     },
     {   
-        "topic":"Khalifa in Quran | Imam | Badshah", 
+        "topic":"Khalifa in Quran | Imam | Badshah  --  Still Working", 
         "details": "<span class = 'referenceClass'> In Quran <br/> " +
             "<span class = 'descriptionClass'> " +
             "<br /> <b>1) Quran Chapter 2 Surah Baqarah, verse 30:</b> <br/>" + 
