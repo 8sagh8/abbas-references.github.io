@@ -20,6 +20,39 @@ let book = {
             "<span class = 'descriptionClass'> Hazrat Zakriya ne ek Baitey ki dua ki aur Allah ne jawab main kaha k Nabi hoga wo baita  </span>"
     },
     {   
+        "topic":"Hazrat Haroon In Quran", 
+        "details": "<span class = 'referenceClass'> In Quran <br/> " +
+            "<span class = 'descriptionClass'> " +
+
+            "<br /> <b>1) Quran Chapter 02 Surah Baqarah, verse 248:</b> <br/>" + 
+            "<i><u>taboot e Sakina:</u></i> is taboot main Ale Moosa aur Ale Haroon ki chezain hai jo sukoon hain emaan waloo k lye <br />" + 
+
+            "<br /> <b>2) Quran Chapter 04 Surah Nisa, verse 163:</b> <br/>" + 
+            "<i><u>Wahi:</u></i> Hazrat Haroon pr Wahi nazil ki <br />" + 
+
+            "<br /> <b>3) Quran Chapter 06 Surah An'aam, verse 84:</b> <br/>" + 
+            "<i><u>Hidayat:</u></i> Hazrat Haroon ko hidayat di aur aise hi naik kaam karne waloo ko badla dete hain <br />" + 
+
+            "<br /> <b>4) Quran Chapter 07 Surah A'araf, verse 122:</b> <br/>" + 
+            "<i><u>Emaan Laye Jadoghar:</u></i> Hazrat Moosa aur Haroon k rab pr emaan laye Jadoogar Fir'oon k <br />" + 
+
+            "<br /> <b>5) Quran Chapter 07 Surah A'araf, verse 142:</b> <br/>" + 
+            "<i><u>Khalifa:</u></i> Hazrat Moosa ne kaha Hazrat Haroon se k tm Khalifa ho. Note: kaha tha na k banaya khalifa <br />" + 
+
+            "<br /> <b>6) Quran Chapter 07 Surah A'araf, verse 150 - 151:</b> <br/>" + 
+            "<i><u>Qom Haroon ko Qatal kar deti:</u></i> Hazrat Moosa gussa howey tu Hazrat Haroon ne kaha k qoam ne unhe kamzoor samja aur qareeb tha k qatal karti phir Hazrat Mosa ne dua ki k Allah bakhsh de unhey aur un k bhai haroon ko. " + 
+            "Note: Sunni aqeedey main tu Nabi afzal hai Hazrat Ali se, tu ab kia Hazrat Haroon ko kahoge k wo dar gaye thy naozubillah jo logoo ki is'lah nhi ki aur shirk krne dia? Hazrat ali k time pr tu shirk nhi howa tha. <i><u>point 2: </u></i> jb gunah kia nhi tu Hazrat Musa khud k lye aur apne bhai jo k Nabi thy un k lye astagfaar q? <br />" + 
+
+            "<br /> <b>7) Quran Chapter 10 Surah Yunus, verse 75:</b> <br/>" + 
+            "<i><u>Allah ne sath bheja:</u></i> Hazrat Moosa k sath Haroon ko bheja Firoon k pass <br />" + 
+
+            "<br /> <b>8) Quran Chapter 19 Surah Maryam, verse 53:</b> <br/>" + 
+            "<i><u>Haroon rehmat se atta howa:</u></i> Allah ne Hazrat Mosa ko rehmat se un ka bhai Hazrat Haroon atta kia <br />" + 
+
+
+            "</span>"
+    },
+    {   
         "topic":"Khalifa in Quran | Imam | Badshah  --  Still Working", 
         "details": "<span class = 'referenceClass'> In Quran <br/> " +
             "<span class = 'descriptionClass'> " +
