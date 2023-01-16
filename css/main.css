@@ -67,6 +67,11 @@
     color: green;
 }
 
+.card-details{
+    height: 300px;
+    overflow-x: hidden;
+}
+
 /* Description of Reference */
 .descriptionClass{
     font-size: 18px;

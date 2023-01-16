@@ -49,7 +49,45 @@ let book = {
             "<br /> <b>8) Quran Chapter 19 Surah Maryam, verse 53:</b> <br/>" + 
             "<i><u>Haroon rehmat se atta howa:</u></i> Allah ne Hazrat Mosa ko rehmat se un ka bhai Hazrat Haroon atta kia <br />" + 
 
+            "<br /> <b>9) Quran Chapter 20 Surah Tahaa, verse 29:</b> <br/>" + 
+            "<i><u>Wazeer:</u></i> Dua, Haroon ko Wazeer(Minister) bana de <br />" +
 
+            "<br /> <b>10) Quran Chapter 20 Surah Tahaa, verse 30:</b> <br/>" + 
+            "<i><u>Brother:</u></i> My brother Haroon <br />" +
+
+            "<br /> <b>11) Quran Chapter 20 Surah Tahaa, verse 31:</b> <br/>" + 
+            "<i><u>Increase Strength:</u></i> Dua, Increase through him (haroon) my strength <br />" +
+
+            "<br /> <b>12) Quran Chapter 20 Surah Tahaa, verse 32:</b> <br/>" + 
+            "<i><u>Partner in my Job:</u></i> Dua, mere kaam main usey Shareek kr de<br />" +
+
+            "<br /> <b>13) Quran Chapter 20 Surah Tahaa, verse 33 to 36:</b> <br/>" + 
+            "<i><u>Hum tuje yaad kare:</u></i> Dua, hum teri tasbeeh kare bht zyada aur tuje yaad kare bht zyada aur tu janta hai. Allah ne kaha k jo manga wo dia<br />" +
+
+            "<br /> <b>14) Quran Chapter 20 Surah Tahaa, verse 70:</b> <br/>" + 
+            "<i><u>Haroon k naam ka Kalma:</u></i> jadogaro ne kaha, Haroon aur Musa k RAB pr emaan laye<br />" +
+
+            "<br /> <b>15) Quran Chapter 21 Surah Anbiyaa, verse 48:</b> <br/>" + 
+            "<i><u>Book:</u></i> Allah says, Hum ne Moosa aur Haroon ko farq karne wali aur roshni di<br />" +
+
+            "<br /> <b>16) Quran Chapter 23 Surah Anbiyaa, verse 45:</b> <br/>" + 
+            "<i><u>Book:</u></i> Allah says, Hum ne bheja Moosa aur us k bhai Haroon ko apni Nishaniyoo aur khule dala'il k sath<br />" +
+
+            "<br /> <b>17) Quran Chapter 25 Surah Al Furqaan, verse 35:</b> <br/>" + 
+            "<i><u>Wazeer, brother:</u></i> Humne Moosa ko kitaab di aur us k bhai Haroon ko Wazeer/minister banaya <br />" +
+
+            "<br /> <b>18) Quran Chapter 26 Surah Asha'raa, verse 13:</b> <br/>" + 
+            "<i><u>Wahi:</u></i> Hazrat Musa ne Allah se kaha, Haroon ki taraf bhi Msg bheej <br />" +
+
+            "<br /> <b>19) Quran Chapter 37 Surah As'saaf'faat, verse 114 to 122:</b> <br/>" + 
+            "<i><u>Ah'saan:</u></i> Humne Moosa aur Haroon pr Ehsaan kia <br />" +
+            "<i><u>Nijaat:</u></i> Musa, Haroon aur unki Qom ko Gham se Nijaat di <br />" +
+            "<i><u>Madad ki:</u></i> Allah ne in donoo Musa aur Haroon ki madad ki tu galib rahe <br />" +
+            "<i><u>Kitaab:</u></i> Allah ne donoo ko kitaab di <br />" +
+            "<i><u>Hidayat:</u></i> Allah ne donoo ko Seedhey Rastey ki Hidayat ki <br />" +
+            "<i><u>Zikr Baqi rakha:</u></i> Allah ne donoo ko Zikr Khair baad waloo main baqi rakha <br />" +
+            "<i><u>Allah ka SALAM:</u></i> Allah ne Musa aur Haroon pr Salam nazil kia<br />" +
+            "<i><u>Momin:</u></i> Allah ne Musa aur Haroon donoo ko Momin kaha<br />" +
             "</span>"
     },
     {   

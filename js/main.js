@@ -19,7 +19,7 @@ function newLoad () {
     for (let i = 0; i < data.length; i++){
         text += '<div class="card col-4s contClass" style="width: 18rem;" id = ' + (i + 1) + '> <div class="card-body">';
         text += '<h5 class="card-text topicClass">' + (i + 1) + ": " + data[i].topic + '</h5><hr/>';
-        text += '<p class="card-text">' + data[i].details + '</p> </div> </div>';
+        text += '<p class="card-text card-details">' + data[i].details + '</p> </div> </div>';
     }
 
     text += '</div> </div>';
