@@ -2,6 +2,11 @@
 let book = {
 "reference":[
     {   
+        "topic":"Sahaba | sadqa do ", 
+        "details": "<span class = 'referenceClass'> Quran Surah Mujadila Chapter 58, verse 12-13  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ne farmaya k Nabi (s.a.w.a.w) se sargooshi karne se pehle sadqa doo, aur nhi dia kisi ne bhi siwae Mola Ali k </span>"
+    },
+    {   
         "topic":"Sahaba Odool, Adil | Hazrat Omar ko ahadees nahi pata", 
         "details": "<span class = 'referenceClass'> Sahih Muslim V/5 page 314 to 318, Hadees# 5626 to 5634  </span> <br/> " +
             "<span class = 'descriptionClass'> Abu Mosa Ashari ko bulaya Hazrat Umar ne, teen dafa salam kr k ijazat li nhi mili tu wapis ho liye q k hadees mai yahi hukum hai. Umar ne baad main kaha k is amal pr hadees laoo warna saza doonga" +
