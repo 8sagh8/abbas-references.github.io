@@ -2,6 +2,31 @@
 let book = {
 "reference":[
     {   
+        "topic":"Nabi (s.a.w.a.w) ko parhna | read karna aata tha", 
+        "details": "<span class = 'referenceClass'> Quran Surah YunusChapter 10, verse 71  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ne farmaya k aap (s.a.w.a.w) in logo ko <b>Parh</b> kr sunae Noah ka kissa... Quran kahe parho aur musalmaan kahe parhna nhi aata tha. word 'اَتْلُ' root word 'تلو'</span>"
+    },
+    {   
+        "topic":"kia Allah nhi janta | maloom karega", 
+        "details": "<span class = 'referenceClass'> Quran Surah Ankaboot Chapter 29, verse 03  </span> <br/> " +
+            "<span class = 'descriptionClass'> Allah ne farmaya k WOH maloom kar lega k kon sachey hain aur kon jhootey.. kia Allah nhi janta jo aise keh raha hai? wo bhi azmaish se?</span>"
+    },
+    {   
+        "topic":"Emaan | Aazmaish", 
+        "details": "<span class = 'referenceClass'> Quran Surah Ankaboot Chapter 29, verse 02 - 03 </span> <br/> " +
+            "<span class = 'descriptionClass'> logo ne kaha k wo EMAAN laye tu kia choor diye jayege Allah ne pehle waloo ko azmaya aur inhe bhi </span>"
+    },
+    {   
+        "topic":"Struggle | koshish", 
+        "details": "<span class = 'referenceClass'> Quran Surah Ankaboot Chapter 29, verse 06  </span> <br/> " +
+            "<span class = 'descriptionClass'> Jo koi bhi koshish karta hai wo khud k lye karta hai </span>"
+    },
+    {   
+        "topic":"Allah ka jism | Allah ka mou ", 
+        "details": "<span class = 'referenceClass'> Quran Surah Baqarah Chapter 02, verse 115  </span> <br/> " +
+            "<span class = 'descriptionClass'> Tum jidher bhi mou karoo waha Allah ka mou face hai </span>"
+    },
+    {   
         "topic":"Sahaba | sadqa do ", 
         "details": "<span class = 'referenceClass'> Quran Surah Mujadila Chapter 58, verse 12-13  </span> <br/> " +
             "<span class = 'descriptionClass'> Allah ne farmaya k Nabi (s.a.w.a.w) se sargooshi karne se pehle sadqa doo, aur nhi dia kisi ne bhi siwae Mola Ali k </span>"
@@ -260,7 +285,12 @@ let book = {
     {   
         "topic":"Zalim | Wahi | Allah pr jhoot", 
         "details": "<span class = 'referenceClass'> Quran Chapter 6, verse 93  </span> <br/> " +
-            "<span class = 'descriptionClass'> Us se bara zalim aur kon hoga jo Allah pr Jhoot bandhey aur kahe us pr WAHI aati hai jb k nhi aati</span>"
+            "<span class = 'descriptionClass'> Us se bara zalim aur kon hoga jo Allah pr Jhoot bandhey aur kahe us pr WAHI aati hai jb k nhi aati" +
+            
+            "<br /> <b>2) Quran Chapter 10 Surah Yunus, verse 69:</b> <br/>" + 
+            "Jo log Allah pr jhoot ghartey hain wo Falah/kamiyabi nhi payege <br /></span>",
+
+            
     },
 
     {   
