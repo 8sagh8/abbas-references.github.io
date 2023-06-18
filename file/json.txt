@@ -1,6 +1,27 @@
 
 let book = {
 "reference":[
+    
+    {   
+        "topic":"Azmaish | Imtehaan | Kalma parhna kafi nhi", 
+        "details": "<span class = 'referenceClass'>  Quran Surah Al Ankaboot Chapter 69, verse 2  </span> <br/> " +
+            "<span class = 'descriptionClass'>Sirf kalma parhna kafi nhi azmaish hogi zaroor, ayat says: Do people think that they will be left alone because they say: We believe, and will not be tested. <br /> 'کیا لوگ خیال کرتے ہیں یہ کہنے سےکہ ہم ایمان لائے ہیں چھوڑ دیئے جائیں گے اور ان کی آزمائش نہیں کی جائے گی' </span>"
+    },
+    {   
+        "topic":"Azmaish | Imtehaan | Kalma parhna kafi nhi", 
+        "details": "<span class = 'referenceClass'>  Quran Surah Ale Imran Chapter 03, verse 142  </span> <br/> " +
+            "<span class = 'descriptionClass'>Imtehaan hoga, kalma parhna kafi nhi, ayat says: Do you think that you will enter Paradise before Allah tests those of you who fought (in His Cause) and (also) tests those who are As-Sabirun (the patient)? <br /> 'کیا تم یہ خیال کرتے ہو کہ جنت میں داخل ہو جاؤ گے اور ابھی تک الله نے نہیں ظاہرکیا ان لوگوں کو جو تم میں سے جہاد کرنے والے ہیں اور ابھی صبر کرنے والوں کو بھی ظاہر نہیں کیا' </span>"
+    },
+    {   
+        "topic":"Muslim Musalmaan | Pehla Muslim Pehla Musalmaan", 
+        "details": "<span class = 'referenceClass'>  Quran Surah Anaam Chapter 06, verse 63  </span> <br/> " +
+            "<span class = 'descriptionClass'> this ayat is in honor of Prophet Mohammad (s.a.w.a.w) - ayat says:<br/>  'وَأَنَا أَوَّلُ الْمُسْلِمِينَ' <br/> He has no partner. And of this I have been commanded, and I am the first of the Muslims.</span>"
+    },
+    {   
+        "topic":"Allah ka jism | Paoon foot", 
+        "details": "<span class = 'referenceClass'> Sahaih al Bukhari, book 65, hadith 369 from sunnah.com  </span> <br/> " +
+            "<span class = 'descriptionClass'> Narrated Anas: The Prophet (s.a.w.a.w) said, The people will be thrown into the (Hell) Fire and it will say: Are there any more (to come)? (50.30) till Allah puts His Foot over it and it will say, Qati! Qati! (Enough Enough!). weblink: https://sunnah.com/bukhari:4848</span>"
+    },
     {   
         "topic":"Nabi (s.a.w.a.w) ko parhna | read karna aata tha", 
         "details": "<span class = 'referenceClass'> Quran Surah YunusChapter 10, verse 71  </span> <br/> " +
