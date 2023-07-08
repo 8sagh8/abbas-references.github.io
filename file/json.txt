@@ -1,7 +1,23 @@
 
 let book = {
 "reference":[
-    
+    {   
+        "topic":"Matti pr Sajda", 
+        "details": "<span class = 'referenceClass'>  Sahih Bukhari V-1, p-528, Hadees: 836  </span> <br/> " +
+            "<span class = 'descriptionClass'>Matti pr sajda Nabi (sawaw) krtey thy wo sabit hota hai </span>"
+    },
+    {   
+        "topic":"Hazrat Ali | Paoon ka masah", 
+        "details": "<span class = 'referenceClass'>  Sahih Bukhari V-5, p-410, Hadees: 5616  </span> <br/> " +
+            "<span class = 'descriptionClass'>Hazrat Ali k wazu ka zikr hai magar Sar Paoon ki baat adhi bayaan ki..<br/>" +
+            "<b>Musnad Ahmed bin Hambal V-1 page 369 hadees: 737</b> Yaha bayaan howa k Hazrat Ali ne farmaya k Nabi (sawaw) paoon k opper hissey ka masah karte thy <br/> " +
+            "Smartness ye ki urdu tarjumey main Socks/jootey ka word add kardia.. jb k arabi main Paoon tha. <b>But</b> Sunan Abu Dawood main yahi ahadees SOCKS arabic main hain <b>Musanib abhi shaiba main direct paoon pr masah ka mojood hai... mere pass book nhi tu direct check nhi kia</b>.</span>"
+    },
+    {   
+        "topic":"Hazrat Ali | Kharey ho k pani peena", 
+        "details": "<span class = 'referenceClass'>  Sahih Bukhari V-5, p-409, Hadees: 5615-5616  </span> <br/> " +
+            "<span class = 'descriptionClass'>Topic Kharey ho k paani peena - Masjid-e-Koofa main Hazrat Ali ne kharey ho k paani piya aur bataya k kuch loog makroh samajte hain jb k Nabi (sawaw) bhi aise krte thy </span>"
+    },
     {   
         "topic":"Hazrat Ayesha | Yusuf k gird aurteen | women around Yusuf", 
         "details": "<span class = 'referenceClass'>  Sahih Muslim V-1 English, p-531, Hadees: 940  </span> <br/> " +
