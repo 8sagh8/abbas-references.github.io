@@ -373,8 +373,8 @@ let book = {
     },
     {   
         "topic":"Jannat k sardar", 
-        "details": "<span class = 'referenceClass'> tirmizi v/2 page 1040, hadees# 3664, 3665, 3666 <br/> Sunan ibne Majah v/1 page 167, hadees# 100 <br/> Musnad ahmad Ibne hambal v/1 page 320, hadees# 302  </span> <br/> " +
-            "<span class = 'descriptionClass'> shaikhain (abu bakar & umar) jannat k jawan aur budhoo k sardar hain siwaee nabiyoo k </span>"
+        "details": "<span class = 'referenceClass'> tirmizi v/2 page 1040, hadees# 3664, 3665, 3666 <br/> Sunan ibne Majah v/1 page 167, hadees# 100 <br/> Musnad ahmad Ibne hambal v/1 page 320, hadees# 602  </span> <br/> " +
+            "<span class = 'descriptionClass'> shaikhain (abu bakar & umar) jannat k jawan aur budhoo k sardar hain siwaee nabiyoo k (Sirf Musnad Ahmed main Jawanoo ka lafz hai baqi main nhi)</span>"
     },
     {   
         "topic":"Nabi (s.a.w.a.w) ne kisi k peche namaz parhi", 
