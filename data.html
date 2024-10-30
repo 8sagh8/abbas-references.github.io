@@ -34,59 +34,34 @@
 
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
 
-        let rowsData = []; // Store data to apply filters
-
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                rowsData = data.values || [];
-                renderTable(rowsData);
+                const rows = data.values;
+                if (rows.length) {
+                    let table = "<table><tr>";
+                    
+                    // Header row
+                    rows[0].forEach(header => (table += `<th>${header}</th>`));
+                    table += "</tr>";
+                    
+                    // Data rows
+                    rows.slice(1).forEach(row => {
+                        table += "<tr>";
+                        row.forEach(cell => (table += `<td>${cell}</td>`));
+                        table += "</tr>";
+                    });
+                    table += "</table>";
+
+                    document.getElementById('sheetData').innerHTML = table;
+                } else {
+                    document.getElementById('sheetData').innerHTML = "No data found.";
+                }
             })
             .catch(error => {
                 console.error("Error fetching data:", error);
                 document.getElementById('sheetData').innerHTML = "Error loading data.";
             });
-
-        // Function to render the table
-        function renderTable(data) {
-            if (data.length) {
-                let table = "<table><tr>";
-                
-                // Header row
-                data[0].forEach(header => (table += `<th>${header}</th>`));
-                table += "</tr>";
-                
-                // Data rows
-                data.slice(1).forEach(row => {
-                    table += "<tr>";
-                    row.forEach(cell => (table += `<td>${cell}</td>`));
-                    table += "</tr>";
-                });
-                table += "</table>";
-
-                document.getElementById('sheetData').innerHTML = table;
-            } else {
-                document.getElementById('sheetData').innerHTML = "No data found.";
-            }
-        }
-
-        // Function to apply filter based on input values
-        function applyFilter() {
-            const filter1 = document.getElementById("filter1").value.toLowerCase();
-            const filter2 = document.getElementById("filter2").value.toLowerCase();
-
-            // Filter rowsData based on input values
-            const filteredData = rowsData.filter((row, index) => {
-                if (index === 0) return true; // Keep header row
-
-                const column1Match = row[0].toLowerCase().includes(filter1);
-                const column2Match = row[1].toLowerCase().includes(filter2);
-
-                return column1Match && column2Match; // Add more conditions for more columns
-            });
-
-            renderTable(filteredData);
-        }
     </script>
 
 </body>
