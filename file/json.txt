@@ -2,11 +2,7 @@
 let book = {
 "reference":[
 
-    {   
-        "topic":"Hazrat Fatimah as | Gazabnaak | Jannat", 
-        "details": "<span class = 'referenceClass'>  Sahih Bukhari V-3, p-765, Hadees: 6767  </span> <br/> " +
-            "<span class = 'descriptionClass'>Hazrat Fatima (as) Jannat ki aurtoo ki sardaar hain - <br /> Fatima (as) Mere (sawaw) jism ka tukra hai, jisney usey(as) gazabnaak kia usne muje (sawaw) gazabnaak kia. </span>"
-    },
+
     {   
         "topic":"Meaning badalna | alaihis salam | Bibi Fatimah as", 
         "details": "<span class = 'referenceClass'>  Sahih Bukhari V-5, p-737, Hadees: 6318  </span> <br/> " +
