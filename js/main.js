@@ -8,6 +8,9 @@ let homeButtonID = document.getElementById("homeButtonID");
 let eventButtonID = document.getElementById("eventButtonID");
 let sideNavID = document.getElementById("sideNavID");
 
+
+
+
 function newLoad () {
     displayReferenceDiv.style.display = "none";
     displayTopicDiv.style.display = "none";
