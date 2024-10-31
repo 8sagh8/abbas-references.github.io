@@ -46,7 +46,7 @@
                     table += "</tr>";
                     
                     // Data rows
-                    rows.slice(1).forEach(row => {
+                    rows.slice(1).reverse().forEach(row => {
                         table += "<tr>";
                         row.forEach(cell => (table += `<td>${cell}</td>`));
                         table += "</tr>";
