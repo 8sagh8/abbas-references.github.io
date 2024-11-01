@@ -104,7 +104,8 @@
     <div class="search-container">
         <input type="text" placeholder="Search...">
         <button class="search-btn" onclick="searchFunction()">Search</button>
-        <button class="list-btn" onclick="navigateToList()">List</button>
+        <button class="list-btn" onclick="navigateToTopic()">Topics List</button>
+        <button class="list-btn" onclick="navigateToList()">References List</button>
     </div>
 
     <footer>
@@ -121,6 +122,11 @@
         function goHome() {
             // Replace 'data.html' with the name of your data display page
             window.open('index.html');
+        }
+        
+        function navigateToTopic() {
+            // Code for search functionality
+            alert("Search functionality coming soon!");
         }
 
         function navigateToList() {
