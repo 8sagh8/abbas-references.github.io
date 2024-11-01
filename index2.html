@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Find the Truth</title>
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="homeBtnColor">
+          <button class="btn" id="homeButtonID">
+            <i class="fa fa-home"></i> Home
+          </button>
+        </div>
+
+        <button onclick="openDataPage()">View Data</button>
+
+        <div class="homeBtnColor">
+          <button class="btn" id="eventButtonID">
+            <i class="fa fa-home"></i> Events
+          </button>
+        </div>
+
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Search By Topic"
+            name="search"
+            id="searchTopicID"
+          />
+          <button type="submit" id="searchTopicButtonID">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Search Any Where"
+            name="search"
+            id="searchAllID"
+          />
+          <button type="submit" id="searchAllButtonID">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <hr />
+
+      <div id="displayDiv"></div>
+      <div id="displayReferenceDiv"></div>
+      <div id="displayTopicDiv"></div>
+      <div id="displayEventDiv"></div>
+    </div>
+
+    <footer>Dedicated to Imam-e-Zamana (alaihis-salam)</footer>
+
+    <script>
+      function openDataPage() {
+          // Replace 'data.html' with the name of your data display page
+          window.open('data.html', '_blank');
+      }
+  </script>
+  
+    <script src="./file/json.txt"></script>
+    <script src="./file/event.txt"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

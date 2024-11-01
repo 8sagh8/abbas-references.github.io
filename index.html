@@ -1,88 +1,132 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Find the Truth</title>
-    <link href="./css/main.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <div class="main">
-      <div class="navbar">
-        <div class="homeBtnColor">
-          <button class="btn" id="homeButtonID">
-            <i class="fa fa-home"></i> Home
-          </button>
+        /* Header styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        /* Buttons styling */
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Search bar styling */
+        .search-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+
+        .search-btn {
+            background-color: blue;
+        }
+
+        .search-btn, .list-btn {
+            width: 100%;
+            max-width: 400px;
+            
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: auto;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        /* Mobile-friendly adjustments */
+        @media (max-width: 600px) {
+            input[type="text"] {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Main Page</h1>
+        <div>
+            <button onclick="goHome()">Home</button>
         </div>
+    </header>
 
-        <button onclick="openDataPage()">View Data</button>
-
-        <div class="homeBtnColor">
-          <button class="btn" id="eventButtonID">
-            <i class="fa fa-home"></i> Events
-          </button>
-        </div>
-
-        <div class="search-container">
-          <input
-            type="text"
-            placeholder="Search By Topic"
-            name="search"
-            id="searchTopicID"
-          />
-          <button type="submit" id="searchTopicButtonID">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-
-        <div class="search-container">
-          <input
-            type="text"
-            placeholder="Search Any Where"
-            name="search"
-            id="searchAllID"
-          />
-          <button type="submit" id="searchAllButtonID">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-      </div>
-      <hr />
-
-      <div id="displayDiv"></div>
-      <div id="displayReferenceDiv"></div>
-      <div id="displayTopicDiv"></div>
-      <div id="displayEventDiv"></div>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button class="search-btn" onclick="searchFunction()">Search</button>
+        <button class="list-btn" onclick="navigateToList()">List</button>
     </div>
 
-    <footer>Dedicated to Imam-e-Zamana (alaihis-salam)</footer>
+    <footer>
+        Made by Ghulam-e-Haider
+    </footer>
 
     <script>
-      function openDataPage() {
-          // Replace 'data.html' with the name of your data display page
-          window.open('data.html', '_blank');
-      }
-  </script>
-  
-    <script src="./file/json.txt"></script>
-    <script src="./file/event.txt"></script>
-    <script src="./js/main.js"></script>
-  </body>
+        // JavaScript functions for button clicks
+        function searchFunction() {
+            // Code for search functionality
+            alert("Search functionality coming soon!");
+        }
+
+        function goHome() {
+            // Replace 'data.html' with the name of your data display page
+            window.open('index.html');
+        }
+
+        function navigateToList() {
+            // Replace 'data.html' with the name of your data display page
+            window.open('data.html');
+        }
+    </script>
+</body>
 </html>
