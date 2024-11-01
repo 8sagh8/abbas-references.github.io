@@ -5,59 +5,7 @@ let book = {
     
     
 
-    {   
-        "topic":"Rijs in Quran | Ahlul Bait se Rijs door", 
-        "details": "<span class = 'referenceClass'> In Quran <br/> " +
-            "<span class = 'descriptionClass'> " +
-            "<br /> <b>1) Quran Chapter 5 Surah Maidah, verse 90:</b> <br/>" + 
-            "Rijs: Sharaab (intoxicants), Jowa (games of chance), Butt (sacrifies at altars), Phanse (divining arrows) <br />" + 
-
-            "<br /> <b>2) Quran Chapter 6 Surah An'aam, verse 125:</b> <br/>" + 
-            "Rijs: Allah un pr rijs/azaab dalega jo log Emaan nhi laatey <br />" + 
-  
-            "<br /> <b>3) Quran Chapter 5 Surah An'aam, verse 145:</b> <br/>" + 
-            "Rijs: Murdaar, behta khoon, soowar ka gosht rijs/ napak / haram hain <br />" + 
-
-            "<br /> <b>4) Quran Chapter 7 Surah A'raaf, verse 71:</b> <br/>" + 
-            "Rijs: Azaab... nabi ne butt paristoo se kaha <br />" + 
-       
-            "<br /> <b>5) Quran Chapter 9 Surah Tauba, verse 95:</b> <br/>" + 
-            "Rijs: najis, khabees <br />" + 
-
-            "<br /> <b>6) Quran Chapter 9 Surah Tauba, verse 125:</b> <br/>" + 
-            "Rijs: najis, gandagi, kufr <br />" + 
-        
-            "<br /> <b>7) Quran Chapter 10 Surah Yunus, verse 100:</b> <br/>" + 
-            "Rijs: jo aqal istemaal nhi karte khuda un pr Najasat/ gandagi/ kufr/ gumrahi daalta hai <br />" + 
-
-            "<br /> <b>8) Quran Chapter 22 Surah Hajj, verse 30:</b> <br/>" + 
-            "Rijs: najis/ napaak <br />" + 
-   
-            "<br /> <b>9) Quran Chapter 33 Surah Azaab, verse 3390:</b> <br/>" + 
-            "Rijs: najasat/ napaki <br />" + 
-
-            "</span>"
-    },
     
-    {   
-        "topic":"Rijaat | Rajat", 
-        "details": "<span class = 'referenceClass'> Quran - Tafseer Saafi  </span> <br/> " +
-            "<span class = 'descriptionClass'> <b>volume 5, chapter 27, verse 83, page 516</b> js din hum har qoam se ek groh ko uthayege. <br />" +
-                        "<b>chapter 2, verse 55 - 56</b> jb mosa k manney waloon ne kaha k hum ALLAH ko dekhna chahtey hain tu moat(bijli se mar gaye thy) k baad phir ALLAH ne sb ko zindah kia. ye Hazrat Ali ne farmaya <br/>" + 
-                        "<b>chapter 2, verse 243</b> 1000 (hazaroo) logoo ko maar kr Allah ne zindah kia <br/>" + 
-                        "<b>chapter 2, verse 259</b> ek shaks ko 100 saal k lye murda kar dia aur phir zindah kia </span>"
-    },
-    
-    {
-        "topic":"Lanat / Tabarra", 
-        "details": "<span class = 'referenceClass'> Mustadrak al-hakim V/67354, page 613 to 615, Hadees 8477, 8482, 8483, 8484, 8485 </span> <br/> " +
-            "<span class = 'descriptionClass'> " + 
-            "<b>8477: </b> rasool (s.a.w.a.w) ney mal'oon kaha marwan aur us k baap ko. <br/>" + 
-            "<b>8482: </b> zindah logoon mai nabi (s.a.w.a.w) sb se zyada BANU UMAIYA , BANU HUNEFA aur SAQEEF pr naraz thy. <br/>" + 
-            "<b>8483: </b> ayesha said k nabi ney lanat ki thi marwan k baap pr. Aur marwan mawiya k sath tha <br/>" + 
-            "<b>8484: </b> nabi (s.a.w.a.w) ney in detail marwan aur us key baap ki burai ki hai <br/>" + 
-            "<b>8485: </b> marwan aur us k baap ko lanat di </span>"
-    },
     
     
 
