@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script>
+        // Retrieve search results from local storage
+        const searchResults = JSON.parse(localStorage.getItem('searchResults'));
+
+        if (!searchResults || searchResults.length === 0) {
+            document.body.innerHTML = '<p>No results found!</p>';
+        } else {
+            const tableBody = document.querySelector('#resultsTable tbody');
+
+            // Populate the table with search results
+            searchResults.forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell;
+                    tr.appendChild(td);
+                });
+                tableBody.appendChild(tr);
+            });
+        }
+    </script>
+</body>
+</html>
