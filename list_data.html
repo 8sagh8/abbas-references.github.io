@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Data Display with Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #searchInput {
+            padding: 12px 15px;
+            width: 80%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        th {
+            background-color: #4a6fa5;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+        
+        tr {
+            height: 60px; /* Fixed row height */
+            overflow: hidden;
+            transition: height 0.3s ease;
+        }
+        
+        tr.expanded {
+            height: auto;
+        }
+        
+        tr:hover {
+            background-color: #f0f5ff;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .link-column {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        a {
+            color: #2a5db0;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .text-container {
+            max-height: 40px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .text-container.expanded {
+            max-height: none;
+        }
+        
+        .expand-btn {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: white;
+            padding: 0 5px;
+            cursor: pointer;
+            color: #2a5db0;
+            font-size: 12px;
+            display: none;
+        }
+        
+        .text-container.has-overflow .expand-btn {
+            display: block;
+        }
+        
+        .expand-btn::after {
+            content: "▼ More";
+        }
+        
+        .text-container.expanded .expand-btn::after {
+            content: "▲ Less";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Data Explorer</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by topic, book, description or religion..." autocomplete="off">
+        </div>
+        
+        <div id="dataTable">
+            <!-- Data will be loaded here -->
+        </div>
+    </div>
+
+    <script>
+        // Sample JSON data matching your structure
+        const jsonData = [
+            {
+                "Serial": 1,
+                "Topic": "Philosophy",
+                "Book": "The Republic",
+                "Description": "Ancient Greek work on justice and governance written by Plato around 380 BCE. It discusses the definition of justice, the order and character of the just city-state, and the just man.",
+                "Religion": "Greek",
+                "link": "https://example.com/republic"
+            },
+            {
+                "Serial": 2,
+                "Topic": "Ethics",
+                "Book": "Nicomachean Ethics",
+                "Description": "Aristotle's work on virtue and morality, consisting of ten books based on notes from his lectures at the Lyceum. It is considered one of the most important historical philosophical works.",
+                "Religion": "Greek",
+                "link": "https://example.com/ethics"
+            },
+            {
+                "Serial": 3,
+                "Topic": "Meditation",
+                "Book": "The Yoga Sutras",
+                "Description": "Ancient Indian text on yoga practice compiled by the sage Patanjali. It contains 196 sutras divided into four chapters that provide guidelines for living a meaningful life.",
+                "Religion": "Hindu",
+                "link": "https://example.com/yogasutras"
+            },
+            {
+                "Serial": 4,
+                "Topic": "Compassion",
+                "Book": "The Dhammapada",
+                "Description": "Collection of Buddha's sayings in verse form and one of the most widely read and best known Buddhist scriptures. It consists of 423 verses in 26 chapters.",
+                "Religion": "Buddhist",
+                "link": "https://example.com/dhammapada"
+            },
+            {
+                "Serial": 5,
+                "Topic": "Faith",
+                "Book": "The Bible",
+                "Description": "Christian holy scripture, a collection of religious texts sacred in Christianity. It is divided into the Old Testament and New Testament, with 66 books in Protestant versions.",
+                "Religion": "Christian",
+                "link": "https://example.com/bible"
+            }
+        ];
+
+        // Function to check if text overflows its container
+        function checkOverflow(element) {
+            return element.scrollHeight > element.clientHeight;
+        }
+
+        // Function to setup expand buttons
+        function setupExpandButtons() {
+            document.querySelectorAll('.text-container').forEach(container => {
+                const content = container.querySelector('.content');
+                const btn = container.querySelector('.expand-btn');
+                
+                if (checkOverflow(container)) {
+                    container.classList.add('has-overflow');
+                    
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        container.classList.toggle('expanded');
+                    });
+                }
+            });
+        }
+
+        // Function to load data from external JSON file
+        async function loadExternalJson() {
+            try {
+                const response = await fetch('data.json'); // Change to your JSON file path
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                return data.sort((a, b) => b.Serial - a.Serial); // Sort in reverse order
+            } catch (error) {
+                console.error('Error loading JSON file:', error);
+                // Fallback to sample data if there's an error
+                return jsonData.sort((a, b) => b.Serial - a.Serial); // Sort in reverse order
+            }
+        }
+
+        // Function to display data in table
+        function displayData(data) {
+            const tableContainer = document.getElementById('dataTable');
+            
+            if (data.length === 0) {
+                tableContainer.innerHTML = '<div class="no-results">No matching records found</div>';
+                return;
+            }
+            
+            // Define the columns we want to display
+            const headers = ["Serial", "Topic", "Book", "Description", "Religion", "link"];
+            const headerTitles = ["Serial", "Topic", "Book", "Description", "Religion", "Link"];
+            
+            let tableHTML = '<table><thead><tr>';
+            
+            // Create table headers
+            headerTitles.forEach(header => {
+                tableHTML += `<th>${header}</th>`;
+            });
+            
+            tableHTML += '</tr></thead><tbody>';
+            
+            // Create table rows
+            data.forEach(item => {
+                tableHTML += '<tr>';
+                headers.forEach(header => {
+                    if (header === "link") {
+                        tableHTML += `<td class="link-column"><a href="${item[header]}" target="_blank">${item[header]}</a></td>`;
+                    } else if (header === "Description") {
+                        tableHTML += `<td><div class="text-container"><div class="content">${item[header]}</div><span class="expand-btn"></span></div></td>`;
+                    } else {
+                        tableHTML += `<td>${item[header]}</td>`;
+                    }
+                });
+                tableHTML += '</tr>';
+            });
+            
+            tableHTML += '</tbody></table>';
+            
+            tableContainer.innerHTML = tableHTML;
+            
+            // Setup expand buttons after table is rendered
+            setTimeout(setupExpandButtons, 10);
+        }
+
+        // Function to filter data based on search input
+        function filterData(searchTerm, data) {
+            if (!searchTerm) return data;
+            
+            searchTerm = searchTerm.toLowerCase();
+            
+            return data.filter(item => {
+                return Object.entries(item).some(([key, value]) => {
+                    // Skip searching in Serial and link fields
+                    if (key === "Serial" || key === "link") return false;
+                    
+                    return String(value).toLowerCase().includes(searchTerm);
+                });
+            });
+        }
+
+        // Main function to initialize everything
+        async function init() {
+            // Load data (either from external file or use sample data)
+            let data;
+            try {
+                data = await loadExternalJson();
+            } catch (error) {
+                data = jsonData.sort((a, b) => b.Serial - a.Serial); // Sort in reverse order
+            }
+            
+            // Initial display of all data
+            displayData(data);
+            
+            // Set up search functionality
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', () => {
+                const filteredData = filterData(searchInput.value, data);
+                displayData(filteredData);
+            });
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
