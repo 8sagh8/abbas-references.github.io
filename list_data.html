@@ -3,23 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Islamic References from Google Sheets Data</title>
-    <style>
-        /* Optional styling for the table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Data Display with Search</title>
     <style>
         body {
@@ -184,24 +167,8 @@
             return element.scrollHeight > element.clientHeight;
         }
 
-        // New version (works on all cells except links)
+        // Function to setup expand buttons
         function setupExpandButtons() {
-            document.querySelectorAll('td').forEach(cell => {
-                // Skip if it's a link column or already has a text-container
-                if (cell.classList.contains('link-column') || cell.querySelector('.text-container')) {
-                    return;
-                }
-
-                const content = cell.innerHTML;
-                cell.innerHTML = `
-                    <div class="text-container">
-                        <div class="content">${content}</div>
-                        <span class="expand-btn"></span>
-                    </div>
-                `;
-            });
-
-            // Now setup the event listeners for all expand buttons
             document.querySelectorAll('.text-container').forEach(container => {
                 const content = container.querySelector('.content');
                 const btn = container.querySelector('.expand-btn');
@@ -276,10 +243,11 @@
             // Create table rows
             data.forEach(item => {
                 tableHTML += '<tr>';
-                // New version (simpler since all cells get same treatment)
                 headers.forEach(header => {
                     if (header.toLowerCase() === "link") {
                         tableHTML += `<td class="link-column"><a href="${item[header]}" target="_blank">${item[header]}</a></td>`;
+                    } else if (header.toLowerCase() === "description") {
+                        tableHTML += `<td><div class="text-container"><div class="content">${item[header]}</div><span class="expand-btn"></span></div></td>`;
                     } else {
                         tableHTML += `<td>${item[header]}</td>`;
                     }
@@ -335,55 +303,5 @@
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', init);
     </script>
-</body>
-</html>
-            background-color: #4CAF50;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Islamic References from Google Sheets Data</h1>
-    <div id="sheetData">Loading data...</div>
-
-    <script>
-        // JavaScript code to fetch data from Google Sheets and display it in HTML
-        const apiKey = 'AIzaSyDQLyrSMa6hJxKBTKop1reQN838WysT5MI'; // Replace with your actual API key
-        const sheetId = '1wgoGu9Gv1y2VI086cPvJ-AblSyOWgWBKoHgjZ6a447k'; // Replace with your Google Sheet ID
-        const range = 'Sheet1!A1:G1000'; // Adjust the range based on your sheet and data
-
-        const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
-
-        fetch(url)
-            .then(response => response.json())
-            .then(data => {
-                const rows = data.values;
-                if (rows.length) {
-                    let table = "<table><tr>";
-                    
-                    // Header row
-                    rows[0].forEach(header => (table += `<th>${header}</th>`));
-                    table += "</tr>";
-                    
-                    // Data rows
-                    rows.slice(1).reverse().forEach(row => {
-                        table += "<tr>";
-                        row.forEach(cell => (table += `<td>${cell}</td>`));
-                        table += "</tr>";
-                    });
-                    table += "</table>";
-
-                    document.getElementById('sheetData').innerHTML = table;
-                } else {
-                    document.getElementById('sheetData').innerHTML = "No data found.";
-                }
-            })
-            .catch(error => {
-                console.error("Error fetching data:", error);
-                document.getElementById('sheetData').innerHTML = "Error loading data.";
-            });
-    </script>
-
 </body>
 </html>
